@@ -9,7 +9,7 @@
 
 ## Shopify Admin setup (owner / implementer)
 ### A. Theme
-1. Push `theme/` with Shopify CLI (`shopify theme push --unpublished`).
+1. Connect this repo’s `main` branch in Shopify Admin (Themes → Add theme → Connect from GitHub), or push with Shopify CLI from repo root (`shopify theme push --unpublished`).
 2. In Theme Editor: upload logo (`media/theme/logo/logo.png`), set favicon, assign hero/story/video images & MP4s.
 3. Confirm announcement bar message (do not enable ROYAL 20 messaging until discount exists).
 
