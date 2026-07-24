@@ -1,0 +1,157 @@
+/**
+ * Whiff / Esteem locked design tokens
+ * Extracted from live computed styles + CSS variables
+ * Source store: https://dt-whiff.myshopify.com (audit 2026-07-24)
+ *
+ * Rem base: 10px (html font-size 10px → 164rem page-width = 1640px)
+ */
+
+:root {
+  /* —— Typography —— */
+  --font-heading-family: Asul, serif;
+  --font-body-family: Asul, serif;
+  --font-heading-weight: 400;
+  --font-body-weight: 400;
+  --font-body-weight-bold: 700;
+  --font-heading-style: capitalize;
+
+  --h1-font-size: 48px;
+  --h2-font-size: 40px;
+  --h3-font-size: 32px;
+  --h4-font-size: 28px;
+  --h5-font-size: 24px;
+  --h6-font-size: 16px;
+  --body-font-size: 16px;
+  --nav-font-size: 15px;
+  --card-title-font-size: 26px;
+  --price-font-size: 14px;
+  --small-font-size: 11px;
+  --product-title-computed: 40.8px; /* observed H1 on PDP @1440 */
+
+  --heading-line-height: 1.4;
+  --body-line-height: 1.6;
+  --heading-letter-spacing: 0px;
+  --body-letter-spacing: 0px;
+
+  /* —— Colors (hex locked from RGB theme vars) —— */
+  --color-bg-1: #f1eae4; /* page */
+  --color-bg-2: #eddfd2; /* soft warm */
+  --color-bg-3: #e8d4c2; /* blush / solid button */
+  --color-bg-4: #729855; /* olive accent */
+  --color-bg-5: #222121; /* charcoal / inverse */
+
+  --color-text: #222121;
+  --color-text-muted: #797067;
+  --color-text-on-accent: #ffffff;
+  --color-border: #ddccbd;
+  --color-input-bg: #ffffff;
+  --color-overlay-soft: #d8f1e1;
+
+  --color-button-solid-bg: #e8d4c2;
+  --color-button-solid-text: #222121;
+  --color-button-solid-border: #ddccbd;
+  --color-button-outline: #222121;
+  --color-button-outline-on-media: #ffffff;
+
+  /* RGB triples for Shopify-style color-mix / rgba usage */
+  --rgb-bg-1: 241, 234, 228;
+  --rgb-bg-2: 237, 223, 210;
+  --rgb-bg-3: 232, 212, 194;
+  --rgb-bg-4: 114, 152, 85;
+  --rgb-bg-5: 34, 33, 33;
+  --rgb-text: 34, 33, 33;
+  --rgb-text-muted: 121, 112, 103;
+  --rgb-border: 221, 204, 189;
+
+  /* —— Layout —— */
+  --page-width: 164rem; /* 1640px at rem=10 */
+  --page-width-observed-max: 1720px;
+  --page-gutter: 40px;
+  --page-gutter-wide: 50px;
+  --header-height-desktop: 96px;
+  --header-height-mobile: 64px;
+  --announcement-height: 46px;
+  --hero-height-desktop: 900px;
+  --hero-height-mobile: 482px;
+  --product-media-width-1440: 680px;
+  --product-info-width-1440: 680px;
+  --product-info-pad-left: 50px;
+  --form-field-max-observed: 864px;
+
+  /* —— Spacing scale —— */
+  --space-2xs: 5px;
+  --space-xs: 10px;
+  --space-sm: 15px;
+  --space-md: 20px;
+  --space-lg: 25px;
+  --space-xl: 30px;
+  --space-2xl: 40px;
+  --space-3xl: 50px;
+  --section-sm: 80px;
+  --section-md: 280px;
+  --section-lg: 900px;
+
+  /* —— Components —— */
+  --radius-none: 0px;
+  --border-width: 1px;
+  --button-height: 52px;
+  --button-height-atc: 50px;
+  --button-padding-x: 30px;
+  --input-height: 60px;
+  --textarea-height: 180px;
+  --qty-height: 50px;
+  --qty-width: 162px;
+  --card-gap: 20px;
+  --shadow-none: none;
+
+  /* —— Motion —— */
+  --transition-fast: 0.1s;
+  --transition-ui: 0.2s linear;
+  --transition-media: 0.3s ease;
+  --transition-underline: text-decoration-color 0.3s ease;
+
+  /* —— Breakpoints (reference) —— */
+  --bp-sm: 750px;
+  --bp-md: 990px;
+  --bp-lg: 1200px;
+  --bp-xl: 1440px;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: var(--font-body-family);
+  font-size: var(--body-font-size);
+  font-weight: var(--font-body-weight);
+  line-height: var(--body-line-height);
+  letter-spacing: var(--body-letter-spacing);
+  color: var(--color-text);
+  background-color: var(--color-bg-1);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading-family);
+  font-weight: var(--font-heading-weight);
+  line-height: var(--heading-line-height);
+  letter-spacing: var(--heading-letter-spacing);
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+h1 { font-size: var(--h1-font-size); }
+h2 { font-size: var(--h2-font-size); }
+h3 { font-size: var(--h3-font-size); }
+h4 { font-size: var(--h4-font-size); }
+h5 { font-size: var(--h5-font-size); }
+h6 { font-size: var(--h6-font-size); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

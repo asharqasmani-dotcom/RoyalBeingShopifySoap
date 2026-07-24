@@ -1,0 +1,22 @@
+
+<section class="page-banner"><div class="page-width"><h1>Account</h1></div></section>
+<section class="section"><div class="page-width" style="max-width:480px;margin:0 auto">
+  <h2>Sign in</h2>
+  {% form 'customer_login' %}
+    {{ form.errors | default_errors }}
+    <label for="CustomerEmail">Email</label>
+    <input class="field__input" type="email" name="customer[email]" id="CustomerEmail" autocomplete="email" required>
+    <label for="CustomerPassword" style="display:block;margin-top:12px">Password</label>
+    <input class="field__input" type="password" name="customer[password]" id="CustomerPassword" autocomplete="current-password" required>
+    <button class="button button--primary button--full" type="submit" style="margin-top:16px">Sign in</button>
+  {% endform %}
+  <p style="margin-top:20px"><a href="{{ routes.account_register_url }}">Create account</a> · <a href="#recover" onclick="document.getElementById('recover').hidden=false">Forgot password</a></p>
+  <div id="recover" hidden style="margin-top:28px">
+    <h3>Reset password</h3>
+    {% form 'recover_customer_password' %}
+      <input class="field__input" type="email" name="email" placeholder="Email" required>
+      <button class="button button--outline" type="submit" style="margin-top:12px">Email me a reset link</button>
+    {% endform %}
+  </div>
+</div></section>
+{% schema %}{"name":"Login"}{% endschema %}

@@ -1,0 +1,10 @@
+
+<section class="page-banner"><div class="page-width"><h1>Your account</h1>
+<p><a href="{{ routes.account_logout_url }}">Log out</a></p></div></section>
+<section class="section"><div class="page-width">
+  <h2>Orders</h2>
+  {% if customer.orders.size > 0 %}
+    <ul>{% for order in customer.orders %}<li><a href="{{ order.customer_url }}">{{ order.name }} — {{ order.created_at | date: '%b %d, %Y' }} — {{ order.total_price | money }}</a></li>{% endfor %}</ul>
+  {% else %}<p>You have not placed any orders yet.</p>{% endif %}
+</div></section>
+{% schema %}{"name":"Account"}{% endschema %}

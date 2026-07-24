@@ -1,0 +1,19 @@
+
+<section class="section"><div class="page-width">
+  <h1>Addresses</h1>
+  {% for address in customer.addresses %}
+    <div style="margin-bottom:20px">{{ address | format_address }}</div>
+  {% endfor %}
+  <h2>Add address</h2>
+  {% form 'customer_address', customer.new_address %}
+    {{ form.errors | default_errors }}
+    <input class="field__input" type="text" name="address[first_name]" placeholder="First name" style="margin-bottom:10px">
+    <input class="field__input" type="text" name="address[last_name]" placeholder="Last name" style="margin-bottom:10px">
+    <input class="field__input" type="text" name="address[address1]" placeholder="Address" style="margin-bottom:10px">
+    <input class="field__input" type="text" name="address[city]" placeholder="City" style="margin-bottom:10px">
+    <input class="field__input" type="text" name="address[country]" placeholder="Country" style="margin-bottom:10px">
+    <input class="field__input" type="text" name="address[zip]" placeholder="ZIP" style="margin-bottom:10px">
+    <button class="button button--primary" type="submit">Add address</button>
+  {% endform %}
+</div></section>
+{% schema %}{"name":"Addresses"}{% endschema %}

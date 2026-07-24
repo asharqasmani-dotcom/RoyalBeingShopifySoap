@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner"
+    },
+    "grid": {
+      "type": "main-collection-product-grid"
+    },
+    "why": {
+      "type": "icon-cards"
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Continue the ritual",
+        "button_label": "Shop all soaps",
+        "button_link": "/collections/all"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "grid",
+    "why",
+    "cta"
+  ]
+}

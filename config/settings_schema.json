@@ -1,0 +1,180 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Royal Being",
+    "theme_version": "1.0.0",
+    "theme_author": "Royal Being",
+    "theme_documentation_url": "https://royalbeing.shop",
+    "theme_support_url": "https://royalbeing.shop/pages/contact"
+  },
+  {
+    "name": "Brand colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_botanical",
+        "label": "Botanical green",
+        "default": "#355E4D"
+      },
+      {
+        "type": "color",
+        "id": "color_sage",
+        "label": "Eucalyptus sage",
+        "default": "#7F9A83"
+      },
+      {
+        "type": "color",
+        "id": "color_leaf",
+        "label": "Soft leaf",
+        "default": "#A8BEA8"
+      },
+      {
+        "type": "color",
+        "id": "color_ivory",
+        "label": "Warm ivory",
+        "default": "#FAF7F0"
+      },
+      {
+        "type": "color",
+        "id": "color_gold",
+        "label": "Champagne gold",
+        "default": "#D5A557"
+      },
+      {
+        "type": "color",
+        "id": "color_blush",
+        "label": "Soft blush",
+        "default": "#D9AFA0"
+      },
+      {
+        "type": "color",
+        "id": "color_charcoal",
+        "label": "Charcoal",
+        "default": "#2F332F"
+      },
+      {
+        "type": "color",
+        "id": "color_border",
+        "label": "Border",
+        "default": "#D9CFC0"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "Headings use Cormorant Garamond; body/UI use DM Sans (loaded in theme.liquid)."
+      },
+      {
+        "type": "range",
+        "id": "heading_scale",
+        "min": 90,
+        "max": 120,
+        "step": 1,
+        "unit": "%",
+        "label": "Heading scale",
+        "default": 100
+      }
+    ]
+  },
+  {
+    "name": "Layout",
+    "settings": [
+      {
+        "type": "range",
+        "id": "page_width",
+        "min": 1200,
+        "max": 1800,
+        "step": 20,
+        "unit": "px",
+        "label": "Page width",
+        "default": 1640
+      },
+      {
+        "type": "range",
+        "id": "spacing_sections",
+        "min": 40,
+        "max": 120,
+        "step": 4,
+        "unit": "px",
+        "label": "Section spacing",
+        "default": 80
+      }
+    ]
+  },
+  {
+    "name": "Logo",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "logo",
+        "label": "Logo"
+      },
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon"
+      },
+      {
+        "type": "range",
+        "id": "logo_width",
+        "min": 60,
+        "max": 220,
+        "step": 4,
+        "unit": "px",
+        "label": "Logo width",
+        "default": 120
+      }
+    ]
+  },
+  {
+    "name": "Social",
+    "settings": [
+      {
+        "type": "text",
+        "id": "social_facebook",
+        "label": "Facebook URL",
+        "default": "https://www.facebook.com/profile.php?id=61591471053395"
+      },
+      {
+        "type": "text",
+        "id": "social_instagram",
+        "label": "Instagram URL",
+        "default": "https://www.instagram.com/royalbeing2026/"
+      },
+      {
+        "type": "text",
+        "id": "social_tiktok",
+        "label": "TikTok URL",
+        "default": "https://www.tiktok.com/@royaliik0ju",
+        "info": "Confirm final TikTok URL with owner before launch."
+      }
+    ]
+  },
+  {
+    "name": "Commerce notes",
+    "settings": [
+      {
+        "type": "checkbox",
+        "id": "show_full_ingredients_default",
+        "label": "Show full ingredients by default",
+        "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "publish_watermelon_ritual",
+        "label": "Publish Watermelon Fusion ritual copy (owner-approved)",
+        "default": false,
+        "info": "Keep off until formula/claims confirmation."
+      },
+      {
+        "type": "text",
+        "id": "announcement_text",
+        "label": "Default announcement",
+        "default": "Hand-poured in small batches \u00b7 Ships to USA, Netherlands & Belgium"
+      }
+    ]
+  }
+]

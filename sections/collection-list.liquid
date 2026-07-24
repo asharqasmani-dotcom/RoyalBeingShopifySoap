@@ -1,0 +1,81 @@
+
+<section class="section">
+  <div class="page-width">
+    <div class="section-heading">
+      <h2>{{ section.settings.heading }}</h2>
+      {% if section.settings.text != blank %}<p>{{ section.settings.text }}</p>{% endif %}
+    </div>
+    <div class="grid grid-5" style="margin-top:36px">
+      {% for block in section.blocks %}
+        {% assign col = collections[block.settings.collection] %}
+        <div {{ block.shopify_attributes }}>
+          {% if col != blank %}
+            {% render 'collection-card', collection: col %}
+          {% else %}
+            <div class="card-collection"><div class="card-collection__media">{{ 'collection-1' | placeholder_svg_tag }}</div><h3 class="card-collection__title">{{ block.settings.title | default: 'Collection' }}</h3></div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Shop by collection",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Shop by collection"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Five curated herbal collections \u2014 regal, signature, everyday, duke, and kids."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Fallback title"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Shop by collection",
+      "blocks": [
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        },
+        {
+          "type": "collection"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

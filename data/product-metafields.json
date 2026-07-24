@@ -1,0 +1,563 @@
+[
+  {
+    "handle": "african-rhapsody",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Organic African Black Soap, Shea Butter, Goats Milk, Lemon Oil",
+      "custom.full_ingredients": "Organic African Black Soap, Shea Butter, Goats Milk, Lemon Oil, Sweet Orange Oil, Sweet Almond Oil, Frankincense Oil, Eucalyptus Oil, Neroli Oil, Raw Honey, Vanilla Oil, Clove Oil, Cypress Oil, and Natural Preservative",
+      "custom.weight_label": "6.7 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "aloe-vera-wave",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": null,
+      "custom.color_direction": "Translucent Green",
+      "custom.shape": null,
+      "custom.key_ingredients": "Aloe Vera Base, Aloe Vera Gel, Goat’s Milk, Aloe Vera Oil",
+      "custom.full_ingredients": "Aloe Vera Base, Aloe Vera Gel, Goat’s Milk, Aloe Vera Oil, Cucumber Oil, Violet Oil, Natural Coloring and Natural Preservative.",
+      "custom.weight_label": "6.7 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Common Collection"
+    }
+  },
+  {
+    "handle": "anti-aging-herbal-soap",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goats Milk, Oat Milk Base, Honey Base, Kokum Butter",
+      "custom.full_ingredients": "Goats Milk, Oat Milk Base, Honey Base, Kokum Butter, Murumuru Butter, Tucuma Butter, Cupuacu Butter, Ucuuba Butter, Coconut Oil, Frankincense Oil, Lotus Oil, Eucalyptus Oil, Lavender Oil, Chamomile Oil, Japanese Magnolia Oil, and Natural Preservative",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Common Collection"
+    }
+  },
+  {
+    "handle": "aquatic-escape",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goats Milk, Glycerin, Coconut Oil, Lime Oil",
+      "custom.full_ingredients": "Goats Milk, Glycerin, Coconut Oil, Lime Oil, Lavender Oil, Violet Oil, East Indian Sandalwood, Hawaiian Sandalwood, Sweet Orange Oil, Grapefruit Oil, Eucalyptus Oil, Seaweed FO, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "beef-tallow",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Pasture Raised, Grass Fed Beef Tallow, Goat’s Milk, Oatmeal Base",
+      "custom.full_ingredients": "Pasture Raised, Grass Fed Beef Tallow, Goat’s Milk, Oatmeal Base, Honey, Coconut Oil, Olive Oil, Castor Oil, Tea tree Oil, Mint Oil, and Lavender Oil.",
+      "custom.weight_label": "6.39 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Common Collection"
+    }
+  },
+  {
+    "handle": "blissful-lavender",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": null,
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat’s Milk, Lavender Oil, Vitamin E Oil, Bergamot Oil",
+      "custom.full_ingredients": "Goat’s Milk, Lavender Oil, Vitamin E Oil, Bergamot Oil, Mint Oil, Lavender Buds, Natural Coloring and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Common Collection"
+    }
+  },
+  {
+    "handle": "calm",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Oat Milk, Honey, Jojoba Oil, Lavender Oil",
+      "custom.full_ingredients": "Oat Milk, Honey, Jojoba Oil, Lavender Oil, Geranium Oil, Ylang Ylang Oil, Chamomile Oil, Tea Tree Oil and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Common Collection"
+    }
+  },
+  {
+    "handle": "charcoal-moment",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - LOOKS LIKE A MATCH",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Coconut Oil, Activated Charcoal Powder, Goat Milk, Glycerin",
+      "custom.full_ingredients": "Coconut Oil, Activated Charcoal Powder, Goat Milk, Glycerin, Shea Butter, Bentonite Clay, Tea tree Oil, Peppermint Oil, Eucalyptus Oil, and Lavender Oil.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "citrus-heaven",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING; MIGHT CHANGE FORMULA TO MATCH AI EXACTLY",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goats Milk, Lime Oil, Tangerine Oil, Sweet Orange Oil",
+      "custom.full_ingredients": "Goats Milk, Lime Oil, Tangerine Oil, Sweet Orange Oil, Bergamot Oil, Lemongrass Oil, Grapefruit Oil, Lemon Oil, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Common Collection"
+    }
+  },
+  {
+    "handle": "detoxify",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goats Milk, Shea Butter, Bentonite Clay, Frankincense Oil",
+      "custom.full_ingredients": "Goats Milk, Shea Butter, Bentonite Clay, Frankincense Oil, Lemongrass Oil, Patchouli Oil, Grape Seed Oil, and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Common Collection"
+    }
+  },
+  {
+    "handle": "fresh-floral-fiesta",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goats Milk, Palmarosa Oil, Rosewood Oil, Ylang Ylang",
+      "custom.full_ingredients": "Goats Milk, Palmarosa Oil, Rosewood Oil, Ylang Ylang, Geranium Oil, Rose Oil, Neroli Oil, Lavender Oil, Jasmine Oil, Coconut Oil, Chamomile Roman, Clary Sage Oil, Japanese Magnolia Oil and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Collection"
+    }
+  },
+  {
+    "handle": "glow-rify",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goats Milk, Raw Honey, Glycerin, Carrot Seed Oil",
+      "custom.full_ingredients": "Goats Milk, Raw Honey, Glycerin, Carrot Seed Oil, Frankincense Oil, Jasmine Oil, Cypress Oil, Lavender Oil, Geranium Oil, and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Collection"
+    }
+  },
+  {
+    "handle": "gilded-age",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Plum, Navy, Peach, or Ivory with Gold Mica Dust - rich earth tones",
+      "custom.shape": null,
+      "custom.key_ingredients": "Cocoa Butter Base, Goats Milk Base, Patchouli Oil, Violet Oil",
+      "custom.full_ingredients": "Cocoa Butter Base, Goats Milk Base, Patchouli Oil, Violet Oil, Lavender Oil, Rose Oil, Ylang Ylang Oil, Frankincense Oil, Glycerin Base, Cedarwood Oil, Sweet Orange Oil, Bergamot Oil, Cinnamon Oil, Jasmine Oil, Natural Coloring and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Collection"
+    }
+  },
+  {
+    "handle": "herbal-galaxy-renewal-soap",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": null,
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Shea Butter, Goats Milk, Honey, Coconut Oil",
+      "custom.full_ingredients": "Shea Butter, Goats Milk, Honey, Coconut Oil, Vitamin E Oil, Turmeric Oil, Vanilla Oil, Clove Oil, Eucalyptus Oil, Rose Oil, Peppermint Oil, Spirulina Powder, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "islander",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Coconut Milk, Glycerin, Coconut Oil, Honey",
+      "custom.full_ingredients": "Coconut Milk, Glycerin, Coconut Oil, Honey, Ylang Ylang Oil, Lime Oil, Lemon Oil, Orange Oil, Spearmint Oil, Bergamot, Oil, Mango Butter, Vanilla Oil, Pineapple Oil, Ginger Oil, Plumeria Oil, Tea Tree Oil, Vetiver Oil Pachouli Oil, Clary Sage Oil, Geranium Oil, Frankincense oil, Sandalwood Oil, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "melanin-popping",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "African Black Soap, Goat Milk, Shea Butter, Coconut Oil",
+      "custom.full_ingredients": "African Black Soap, Goat Milk, Shea Butter, Coconut Oil, Jojoba Oil, Lavender Oil, Carrot Seed Oil, Geranium Oil, Tea Tree Oil, Frankincense Oil, Myrrh Oil, Turmeric Oil, and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "sweet-madagascar",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat Milk, Coconut Oil, Ravintsara (Cinnamomum Camphora) Oil, Geranium Oil",
+      "custom.full_ingredients": "Goat Milk, Coconut Oil, Ravintsara (Cinnamomum Camphora) Oil, Geranium Oil, Vanilla Oil, Jasmine Oil, Saro Oil, Orange Blossom Oil, Ylang Ylang Oil, Clove Oil and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "the-duchess",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Purple or White with Purple Swirl",
+      "custom.shape": null,
+      "custom.key_ingredients": "Goats Milk, Mango Butter, Organic Lily of the Valley Oil, Jasmine Oil",
+      "custom.full_ingredients": "Goats Milk, Mango Butter, Organic Lily of the Valley Oil, Jasmine Oil, Bergamot Oil, Sandalwood Oil, Vetiver Oil, Amber Oil, Grape Seed Oil, Vitamin E Oil, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "6.7 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Collection"
+    }
+  },
+  {
+    "handle": "the-enchanted-garden",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Cream with petal pink or Purple, Green",
+      "custom.shape": null,
+      "custom.key_ingredients": "Coconut Milk Base, Goats Milk, Rose Absolute Oil, Geranium Oil",
+      "custom.full_ingredients": "Coconut Milk Base, Goats Milk, Rose Absolute Oil, Geranium Oil, Neroli Oil, Cedarwood Oil, Sandalwood Oil, Patchouli Oil, Vetiver Oil, Lavender Oil, Basil Oil, Amber Oil, Warm Oud Oil, Watermelon FO, Lime Oil, Bergamot Oil, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Collection"
+    }
+  },
+  {
+    "handle": "the-reiny",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Red, Lime Green, Fuchsia, Canary Yellow, or Royal blue",
+      "custom.shape": null,
+      "custom.key_ingredients": "Glycerin Base, Goat’s Milk, Bergamot Oil, Ylang Ylang Oil",
+      "custom.full_ingredients": "Glycerin Base, Goat’s Milk, Bergamot Oil, Ylang Ylang Oil, Jasmine Oil, Saffron Oil, Cedarwood Oil, Sandalwood Oil, Orange Oil, Honey, Vanilla Oil, Natural Coloring and Natural Preservative.",
+      "custom.weight_label": "6.7 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Collection"
+    }
+  },
+  {
+    "handle": "the-rose-garden",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": null,
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat Milk, Honey, Rose Hip Powder, Rose Hip Oil",
+      "custom.full_ingredients": "Goat Milk, Honey, Rose Hip Powder, Rose Hip Oil, Vanilla Oil, Rose Oil, Clove Oil, and Black Rose & Oud FO.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Collection"
+    }
+  },
+  {
+    "handle": "turmeric-swirl",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Coconut Milk, Turmeric root powder, Turmeric Oil, Olive Oil",
+      "custom.full_ingredients": "Coconut Milk, Turmeric root powder, Turmeric Oil, Olive Oil, Shea Butter, Kaolin Clay, Orange Oil, Lavender Oil, and Tea Tree Oil.",
+      "custom.weight_label": "6.7 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "watermelon-fusion",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": "ACTUAL COLOR ACHIEVED SO FAR - STILL TRYING",
+      "custom.color_direction": null,
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat’s Milk, Oat Milk Base, Coconut Oil, Watermelon Oil",
+      "custom.full_ingredients": "Goat’s Milk, Oat Milk Base, Coconut Oil, Watermelon Oil, Lavender Oil, Rose Oil, Eucalyptus Oil, Vanilla Oil, Peppermint Oil, Clove Oil, Pink Clay Powder, Poppy Seeds, Watermelon FO, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "6.7 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "zen-moment",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Mist, Sand, or Sandstone",
+      "custom.shape": null,
+      "custom.key_ingredients": "Aloe Vera Base, Coconut Oil Base, Aloe Vera Oil, Lavender Oil",
+      "custom.full_ingredients": "Aloe Vera Base, Coconut Oil Base, Aloe Vera Oil, Lavender Oil, Frankincense Oil, Peppermint Oil, Eucalyptus Oil, Tea Tree Oil, Violet Oil, Natural Coloring and Natural Preservative.",
+      "custom.weight_label": "6.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Signature Collection"
+    }
+  },
+  {
+    "handle": "bamboozled",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": null,
+      "custom.color_direction": "Light Golden-Green, or Slab, or Grey to VERY Pale green",
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat’s Milk, Bamboo FO, Organic Fir Balsam Oil, White Tea Oil",
+      "custom.full_ingredients": "Goat’s Milk, Bamboo FO, Organic Fir Balsam Oil, White Tea Oil, Cedar Wood Oil, Sandalwood Oil, Patchouli Oil, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Duke Collection"
+    }
+  },
+  {
+    "handle": "woody",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": null,
+      "custom.color_direction": "Cream Tan, Gray-Brown, or Ash Gray",
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat’s Milk, Cedar wood Oil, Sandalwood Oil, Tobacco Oil",
+      "custom.full_ingredients": "Goat’s Milk, Cedar wood Oil, Sandalwood Oil, Tobacco Oil, Patchouli Oil, Sweet Orange Oil, Bergamot Oil, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Duke Collection"
+    }
+  },
+  {
+    "handle": "the-ethan",
+    "metafields": {
+      "custom.launch_status": "draft_pending_owner_approval",
+      "custom.formulation_status": null,
+      "custom.color_direction": "Light Ashy Blue, or Navy Blue",
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat’s Milk, Vanilla Oil, Cedarwood Oil, Sandalwood Oil",
+      "custom.full_ingredients": "Goat’s Milk, Vanilla Oil, Cedarwood Oil, Sandalwood Oil, Amber Oil, Vetiver Oil, Bergamot Oil, Black Pepper, Fresh Linen FO, Sage Oil, White Tea FO, Eucalyptus Oil, Warm Oud FO, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Duke Collection"
+    }
+  },
+  {
+    "handle": "the-aristocrat",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Navy or Hunter Green",
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat’s Milk, Cedarwood, Patchouli Oil, Amber Oil",
+      "custom.full_ingredients": "Goat’s Milk, Cedarwood, Patchouli Oil, Amber Oil, Warm Oud Oil, Watermelon FO, Lime Oil, Bergamot Oil, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Duke Collection"
+    }
+  },
+  {
+    "handle": "teakwood",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Very Light Grey, or Light Brown or very light Khaki",
+      "custom.shape": null,
+      "custom.key_ingredients": "Goat’s Milk, Teakwood Oil, Tobacco Oud, Patchouli Oil",
+      "custom.full_ingredients": "Goat’s Milk, Teakwood Oil, Tobacco Oud, Patchouli Oil, Lavender Oil, Black Pepper Oil, Warm Oud Oil, Clove Oil, Cardamom Oil, Bergamot Oil, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "7.3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Duke Collection"
+    }
+  },
+  {
+    "handle": "the-chloe",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Bubble Gum Pink or Cherry Blossom Pink",
+      "custom.shape": "HEART SHAPED SOAP",
+      "custom.key_ingredients": "Coconut Milk, Mango Base, Lavender Oil, Organic Roman Chamomile Oil",
+      "custom.full_ingredients": "Coconut Milk, Mango Base, Lavender Oil, Organic Roman Chamomile Oil, Sweet Orange Oil, Cherry Blossom Oil, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "5.29 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Kid Herbal Collection"
+    }
+  },
+  {
+    "handle": "the-bodhi",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Light Blue, Deep Green, Yellow or Orange with Cream swirls",
+      "custom.shape": "CUBE SHAPED SOAP",
+      "custom.key_ingredients": "Oatmeal Base, Honey Base, Aloe Vera Base, Shea Butter Base",
+      "custom.full_ingredients": "Oatmeal Base, Honey Base, Aloe Vera Base, Shea Butter Base, Lavender Oil, Organic Roman Chamomile Oil, Sweet Orange Oil, Oatmeal, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Kid Herbal Collection"
+    }
+  },
+  {
+    "handle": "the-matthew",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Very Light Orange or Yellow, or Cream",
+      "custom.shape": "SQUARE SHAPED SOAP",
+      "custom.key_ingredients": "Oatmeal Base, Aloe Vera Base, Shea Butter Base, Coconut Oil",
+      "custom.full_ingredients": "Oatmeal Base, Aloe Vera Base, Shea Butter Base, Coconut Oil, Aloe Vera Oil, Aloe Vera Gel, Castor Oil, Organic Roman Chamomile Oil, Sweet Orange Oil, Melon Oil, Organic Cucumber Oil, Oatmeal, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "3 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Kid Herbal Collection"
+    }
+  },
+  {
+    "handle": "the-iris",
+    "metafields": {
+      "custom.launch_status": "coming_soon",
+      "custom.formulation_status": "ABOUT TO UNDERGO TEST MODE",
+      "custom.color_direction": "Deep Violet or Light Purple  (with Yellow and Pink Swirls)",
+      "custom.shape": "HEART SHAPED SOAP",
+      "custom.key_ingredients": "Goat’s Milk Base, Aloe Vera Base, Lavender Oil, Organic Roman Chamomile Oil",
+      "custom.full_ingredients": "Goat’s Milk Base, Aloe Vera Base, Lavender Oil, Organic Roman Chamomile Oil, Sweet Orange Oil, Natural Coloring, and Natural Preservative.",
+      "custom.weight_label": "5.29 OZ",
+      "custom.show_full_ingredients": false,
+      "custom.subscription_eligible": false,
+      "custom.preorder_enabled": false,
+      "custom.ritual_copy_enabled": false,
+      "custom.collection_name": "The Royal Kid Herbal Collection"
+    }
+  }
+]

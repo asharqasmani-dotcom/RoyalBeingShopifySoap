@@ -1,0 +1,93 @@
+{
+  "fields": [
+    {
+      "tag": "INPUT",
+      "type": "search",
+      "name": "q",
+      "label": "Search",
+      "fontSize": "16px",
+      "height": "60px",
+      "padding": "0px 80px 0px 40px",
+      "border": "1px solid rgb(221, 204, 189)",
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "width": "0px"
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "name": "contact[Name]",
+      "label": "Name",
+      "fontSize": "16px",
+      "height": "60px",
+      "padding": "0px 20px 0px 30px",
+      "border": "1px solid rgb(221, 204, 189)",
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "width": "864px"
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "name": "contact[email]",
+      "label": "Email *",
+      "fontSize": "16px",
+      "height": "60px",
+      "padding": "0px 20px 0px 30px",
+      "border": "1px solid rgb(221, 204, 189)",
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "width": "864px"
+    },
+    {
+      "tag": "TEXTAREA",
+      "type": "textarea",
+      "name": "contact[Additional information]",
+      "label": "Additional information",
+      "fontSize": "16px",
+      "height": "180px",
+      "padding": "20px 20px 20px 30px",
+      "border": "1px solid rgb(221, 204, 189)",
+      "borderRadius": "0px",
+      "backgroundColor": "rgb(255, 255, 255)",
+      "width": "864px"
+    },
+    {
+      "tag": "INPUT",
+      "type": "checkbox",
+      "name": "",
+      "label": "Save my name, email, and website in this browser.",
+      "fontSize": "13.3333px",
+      "height": "1px",
+      "padding": "0px 0px 0px 0px",
+      "border": "0px none rgb(0, 0, 0)",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "width": "1px"
+    },
+    {
+      "tag": "INPUT",
+      "type": "email",
+      "name": "contact[email]",
+      "label": "\n                                Your email address\n                              ",
+      "fontSize": "16px",
+      "height": "60px",
+      "padding": "0px 25px 0px 25px",
+      "border": "1px solid rgb(255, 255, 255)",
+      "borderRadius": "0px",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "width": "346px"
+    }
+  ],
+  "submit": {
+    "text": "Send",
+    "fontSize": "16px",
+    "fontFamily": "Asul, serif",
+    "color": "rgb(34, 33, 33)",
+    "backgroundColor": "rgb(232, 212, 194)",
+    "padding": "0px 30px 0px 30px",
+    "borderRadius": "0px",
+    "height": "52px"
+  },
+  "formAction": "/cart"
+}

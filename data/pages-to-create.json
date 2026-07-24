@@ -1,0 +1,50 @@
+[
+  {
+    "handle": "about",
+    "title": "About / Our Story",
+    "template_suffix": "about",
+    "body_file": "data/page-content/about.html"
+  },
+  {
+    "handle": "our-promise",
+    "title": "Our Promise",
+    "template_suffix": "our-promise",
+    "body_file": "data/page-content/our-promise.html"
+  },
+  {
+    "handle": "reviews",
+    "title": "Reviews",
+    "template_suffix": "reviews",
+    "body_file": "data/page-content/reviews.html"
+  },
+  {
+    "handle": "subscriptions",
+    "title": "Subscriptions",
+    "template_suffix": "subscriptions",
+    "body_file": "data/page-content/subscriptions.html"
+  },
+  {
+    "handle": "customize-your-soap",
+    "title": "Customize Your Soap",
+    "template_suffix": "customize-your-soap",
+    "body_file": "data/page-content/customize-your-soap.html"
+  },
+  {
+    "handle": "shipping-returns",
+    "title": "Shipping & Returns",
+    "template_suffix": "shipping-returns",
+    "body_file": "data/page-content/shipping-returns.html"
+  },
+  {
+    "handle": "faq",
+    "title": "FAQ",
+    "template_suffix": "faq",
+    "body_file": "data/page-content/faq.html"
+  },
+  {
+    "handle": "contact",
+    "title": "Contact",
+    "template_suffix": "contact",
+    "body_file": "data/page-content/contact.html"
+  }
+]

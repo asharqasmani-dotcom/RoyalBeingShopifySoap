@@ -1,0 +1,43 @@
+
+<section class="section">
+  <div class="page-width">
+    <div class="shop-toolbar">
+      <div>{{ collection.products_count }} products</div>
+      <div>
+        <label for="SortBy-{{ section.id }}" class="visually-hidden">Sort</label>
+        <select class="field__input" style="min-height:44px;width:auto;padding:0 16px" id="SortBy-{{ section.id }}" onchange="window.location.href=this.value">
+          {% for option in collection.sort_options %}
+            <option value="{{ option.url }}" {% if option.value == collection.sort_by %}selected{% endif %}>{{ option.name }}</option>
+          {% endfor %}
+        </select>
+      </div>
+    </div>
+    <div class="grid grid-4">
+      {% paginate collection.products by section.settings.products_per_page %}
+        {% for product in collection.products %}
+          {% render 'product-card', product: product %}
+        {% else %}
+          <p>No products found in this collection yet. Import draft products from data/shopify-products-import.csv.</p>
+        {% endfor %}
+        {{ paginate | default_pagination }}
+      {% endpaginate %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collection product grid",
+  "settings": [
+    {
+      "type": "range",
+      "id": "products_per_page",
+      "min": 8,
+      "max": 36,
+      "step": 4,
+      "label": "Products per page",
+      "default": 16
+    }
+  ]
+}
+{% endschema %}

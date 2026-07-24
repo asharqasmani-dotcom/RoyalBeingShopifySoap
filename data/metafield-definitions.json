@@ -1,0 +1,83 @@
+{
+  "namespace": "custom",
+  "definitions": [
+    {
+      "key": "launch_status",
+      "type": "single_line_text_field",
+      "name": "Launch status",
+      "owner": "product"
+    },
+    {
+      "key": "formulation_status",
+      "type": "multi_line_text_field",
+      "name": "Formulation status",
+      "owner": "product"
+    },
+    {
+      "key": "color_direction",
+      "type": "single_line_text_field",
+      "name": "Color direction",
+      "owner": "product"
+    },
+    {
+      "key": "shape",
+      "type": "single_line_text_field",
+      "name": "Shape",
+      "owner": "product"
+    },
+    {
+      "key": "key_ingredients",
+      "type": "multi_line_text_field",
+      "name": "Key ingredients",
+      "owner": "product"
+    },
+    {
+      "key": "full_ingredients",
+      "type": "multi_line_text_field",
+      "name": "Full ingredients",
+      "owner": "product"
+    },
+    {
+      "key": "show_full_ingredients",
+      "type": "boolean",
+      "name": "Show full ingredients",
+      "owner": "product"
+    },
+    {
+      "key": "weight_label",
+      "type": "single_line_text_field",
+      "name": "Weight label",
+      "owner": "product"
+    },
+    {
+      "key": "subscription_eligible",
+      "type": "boolean",
+      "name": "Subscription eligible",
+      "owner": "product"
+    },
+    {
+      "key": "preorder_enabled",
+      "type": "boolean",
+      "name": "Preorder enabled",
+      "owner": "product"
+    },
+    {
+      "key": "how_to_use",
+      "type": "multi_line_text_field",
+      "name": "How to use",
+      "owner": "product"
+    },
+    {
+      "key": "care",
+      "type": "multi_line_text_field",
+      "name": "Care",
+      "owner": "product"
+    },
+    {
+      "key": "collection_name",
+      "type": "single_line_text_field",
+      "name": "Primary collection name",
+      "owner": "product"
+    }
+  ]
+}

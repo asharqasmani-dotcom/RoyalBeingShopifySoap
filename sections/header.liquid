@@ -1,0 +1,81 @@
+
+<link rel="stylesheet" href="{{ 'theme.css' | asset_url }}" media="print" onload="this.media='all'">
+<div class="header-wrapper">
+  <header class="header page-width">
+    <div>
+      <button class="header__icon menu-drawer-button" type="button" data-menu-open aria-label="{{ 'general.menu' | t }}">Menu</button>
+    </div>
+    <a class="header__logo" href="{{ routes.root_url }}" aria-label="{{ shop.name }}">
+      {% if settings.logo != blank %}
+        {{ settings.logo | image_url: width: 240 | image_tag: loading: 'eager', alt: shop.name }}
+      {% else %}
+        <span class="header__logo-text">Royal Being</span>
+      {% endif %}
+    </a>
+    <nav class="header__nav" aria-label="Primary">
+      <a href="{{ routes.root_url }}">Home</a>
+      <details class="header__shop">
+        <summary>Shop</summary>
+        <div class="mega-menu">
+          <div class="page-width mega-menu__grid">
+            {% assign cols = 'the-royal-collection,the-signature-collection,the-common-collection,the-royal-duke-collection,the-royal-kid-herbal-collection' | split: ',' %}
+            {% for handle in cols %}
+              {% assign col = collections[handle] %}
+              <div>
+                <div class="mega-menu__heading">{% if col != blank %}{{ col.title }}{% else %}{{ handle | replace: '-', ' ' | capitalize }}{% endif %}</div>
+                {% if col != blank %}
+                  <a href="{{ col.url }}">Shop collection</a>
+                  {% for product in col.products limit: 4 %}
+                    <a href="{{ product.url }}">{{ product.title }}</a>
+                  {% endfor %}
+                {% endif %}
+              </div>
+            {% endfor %}
+          </div>
+        </div>
+      </details>
+      <a href="/pages/customize-your-soap">Customize</a>
+      <a href="/pages/subscriptions">Subscriptions</a>
+      <a href="/pages/about">Our Story</a>
+      <a href="/pages/reviews">Reviews</a>
+      <a href="/pages/faq">FAQ</a>
+      <a href="/pages/contact">Contact</a>
+    </nav>
+    <div class="header__icons">
+      <a class="header__icon" href="{{ routes.search_url }}" aria-label="{{ 'general.search' | t }}">Search</a>
+      <a class="header__icon" href="{{ routes.account_url }}" aria-label="{{ 'general.account' | t }}">Account</a>
+      <a class="header__icon" href="{{ routes.cart_url }}" data-cart-open aria-label="{{ 'general.cart' | t }}">
+        Cart{% if cart.item_count > 0 %}<span class="cart-count">{{ cart.item_count }}</span>{% endif %}
+      </a>
+    </div>
+  </header>
+</div>
+
+<div class="menu-drawer__overlay" data-menu-overlay data-menu-close></div>
+<aside class="menu-drawer" data-menu-drawer aria-hidden="true">
+  <button type="button" class="button button--outline" data-menu-close style="margin-bottom:16px">{{ 'general.close' | t }}</button>
+  <nav aria-label="Mobile">
+    <p><a href="{{ routes.root_url }}">Home</a></p>
+    <p><strong>Shop by collection</strong></p>
+    <p><a href="/collections/the-royal-collection">The Royal Collection</a></p>
+    <p><a href="/collections/the-signature-collection">The Signature Collection</a></p>
+    <p><a href="/collections/the-common-collection">The Common Collection</a></p>
+    <p><a href="/collections/the-royal-duke-collection">The Royal Duke Collection</a></p>
+    <p><a href="/collections/the-royal-kid-herbal-collection">The Royal Kid Herbal Collection</a></p>
+    <p><a href="/collections/all">Shop all soaps</a></p>
+    <p><a href="/pages/customize-your-soap">Customize</a></p>
+    <p><a href="/pages/subscriptions">Subscriptions</a></p>
+    <p><a href="/pages/about">Our Story</a></p>
+    <p><a href="/pages/reviews">Reviews</a></p>
+    <p><a href="/pages/faq">FAQ</a></p>
+    <p><a href="/pages/contact">Contact</a></p>
+  </nav>
+</aside>
+
+{% schema %}
+{
+  "name": "Header",
+  "class": "section-header",
+  "settings": []
+}
+{% endschema %}

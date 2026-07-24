@@ -1,0 +1,13 @@
+
+<section class="page-banner"><div class="page-width"><h1>Create account</h1></div></section>
+<section class="section"><div class="page-width" style="max-width:480px;margin:0 auto">
+  {% form 'create_customer' %}
+    {{ form.errors | default_errors }}
+    <input class="field__input" type="text" name="customer[first_name]" placeholder="First name" style="margin-bottom:12px">
+    <input class="field__input" type="text" name="customer[last_name]" placeholder="Last name" style="margin-bottom:12px">
+    <input class="field__input" type="email" name="customer[email]" placeholder="Email" required style="margin-bottom:12px">
+    <input class="field__input" type="password" name="customer[password]" placeholder="Password" required>
+    <button class="button button--primary button--full" type="submit" style="margin-top:16px">Create</button>
+  {% endform %}
+</div></section>
+{% schema %}{"name":"Register"}{% endschema %}

@@ -1,0 +1,75 @@
+
+<section class="page-banner"><div class="page-width"><h1>FAQ</h1></div></section>
+<section class="section"><div class="page-width accordion" style="max-width:860px;margin:0 auto">
+{% for block in section.blocks %}
+  <details {{ block.shopify_attributes }}><summary>{{ block.settings.title }}</summary><div class="accordion__content">{{ block.settings.answer }}</div></details>
+{% endfor %}
+</div></section>
+
+{% schema %}
+{
+  "name": "FAQ",
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Question",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Question",
+          "default": "Where do you ship?"
+        },
+        {
+          "type": "richtext",
+          "id": "answer",
+          "label": "Answer",
+          "default": "<p>USA, Netherlands, and Belgium while Markets rates are finalized. Worldwide is aspirational until approved.</p>"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "FAQ",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "title": "Are your soaps handmade?",
+            "answer": "<p>Yes. Royal Being bars are handcrafted in small batches in the USA.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer subscriptions?",
+            "answer": "<p>Monthly subscriptions are supported via Shopify Subscriptions or a compatible app once selling plans are configured per product.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "What is ROYAL 20?",
+            "answer": "<p>A 20% coupon requested by the brand. Activation rules require owner approval before enabling in Shopify Admin Discounts.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "Can I customize a soap?",
+            "answer": "<p>Yes \u2014 use the Customize Your Soap page for inquiry/configuration until fulfillment rules are confirmed.</p>"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "title": "What about sold-out bars?",
+            "answer": "<p>Join the waitlist on the product page for email alerts. Preorder is available only when enabled per product.</p>"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

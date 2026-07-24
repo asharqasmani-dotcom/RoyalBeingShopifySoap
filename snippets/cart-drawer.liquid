@@ -1,0 +1,35 @@
+
+<div class="cart-drawer__overlay" data-cart-overlay data-cart-close></div>
+<aside class="cart-drawer" data-cart-drawer aria-label="Cart" aria-modal="true" role="dialog">
+  <div class="cart-drawer__header" style="display:flex;justify-content:space-between;align-items:center">
+    <h2 style="margin:0;font-size:1.6rem">Cart</h2>
+    <button type="button" class="header__icon" data-cart-close aria-label="Close">Close</button>
+  </div>
+  <div class="cart-drawer__body">
+    {% if cart.item_count == 0 %}
+      <p>Your ritual cart is empty.</p>
+      <a class="button button--primary" href="/collections/all">Shop soaps</a>
+    {% else %}
+      {% for item in cart.items %}
+        <div class="cart-line">
+          {% if item.image %}
+            <img src="{{ item.image | image_url: width: 160 }}" alt="{{ item.product.title | escape }}" width="72" height="90" loading="lazy">
+          {% else %}<div></div>{% endif %}
+          <div>
+            <a href="{{ item.url }}"><strong>{{ item.product.title }}</strong></a>
+            <div>{{ item.final_line_price | money }}</div>
+            <div>Qty {{ item.quantity }}</div>
+            <a href="{{ item.url_to_remove }}">Remove</a>
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+  <div class="cart-drawer__footer">
+    <div style="display:flex;justify-content:space-between;margin-bottom:12px"><span>Subtotal</span><strong>{{ cart.total_price | money }}</strong></div>
+    <a class="button button--primary button--full" href="{{ routes.cart_url }}">View cart</a>
+    <form action="{{ routes.cart_url }}" method="post" style="margin-top:10px">
+      <button class="button button--outline button--full" type="submit" name="checkout">Checkout</button>
+    </form>
+  </div>
+</aside>

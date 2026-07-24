@@ -1,0 +1,24 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner"
+    },
+    "grid": {
+      "type": "main-collection-product-grid"
+    },
+    "story": {
+      "type": "image-with-text",
+      "settings": {
+        "heading": "Collection ritual",
+        "text": "<p>Each collection landing page should embody its theme while staying inside one botanical luxury system.</p>",
+        "button_label": "",
+        "eyebrow": "Collection story"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "grid",
+    "story"
+  ]
+}

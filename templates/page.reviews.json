@@ -1,0 +1,27 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-page"
+    },
+    "reviews": {
+      "type": "reviews-teaser",
+      "settings": {
+        "heading": "Customer reviews",
+        "text": "Text, photo, and moderated video reviews. Connect a review app and place its blocks below \u2014 never fabricate testimonials."
+      }
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Shop the ritual",
+        "button_label": "Shop soaps",
+        "button_link": "/collections/all"
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "reviews",
+    "cta"
+  ]
+}

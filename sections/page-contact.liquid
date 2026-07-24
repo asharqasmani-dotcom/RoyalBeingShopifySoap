@@ -1,0 +1,32 @@
+
+<section class="page-banner"><div class="page-width"><h1>{{ page.title | default: 'Contact' }}</h1><p>Customer support, wholesale, and partnership inquiries.</p></div></section>
+<section class="section"><div class="page-width contact-layout">
+  <div>
+    {% form 'contact' %}
+      {% if form.posted_successfully %}<div class="form-status form-status--success">{{ 'contact.success' | t }}</div>{% endif %}
+      {% if form.errors %}<div class="form-status form-status--error">{{ form.errors | default_errors }}</div>{% endif %}
+      <label for="ContactName">{{ 'contact.name' | t }}</label>
+      <input class="field__input" style="margin:8px 0 16px" type="text" id="ContactName" name="contact[name]" required>
+      <label for="ContactEmail">{{ 'contact.email' | t }}</label>
+      <input class="field__input" style="margin:8px 0 16px" type="email" id="ContactEmail" name="contact[email]" required>
+      <label for="ContactBody">{{ 'contact.message' | t }}</label>
+      <textarea class="field__input" style="margin:8px 0 16px" id="ContactBody" name="contact[body]" required></textarea>
+      <button class="button button--primary" type="submit">{{ 'contact.send' | t }}</button>
+    {% endform %}
+  </div>
+  <div>
+    <h3>Royal Being LLC</h3>
+    <p>Newark, DE 19713<br>Distribution Center: Palm Desert, CA 92211</p>
+    <p><a href="{{ settings.social_instagram }}">Instagram @royalbeing2026</a><br>
+    <a href="{{ settings.social_facebook }}">Facebook</a><br>
+    <a href="{{ settings.social_tiktok }}">TikTok @royaliik0ju</a></p>
+    <p>Final support email/phone pending owner confirmation.</p>
+  </div>
+</div></section>
+
+{% schema %}
+{
+  "name": "Contact page",
+  "settings": []
+}
+{% endschema %}

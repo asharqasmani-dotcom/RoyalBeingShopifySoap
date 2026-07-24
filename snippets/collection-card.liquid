@@ -1,0 +1,14 @@
+
+<a class="card-collection" href="{{ collection.url }}">
+  <div class="card-collection__media">
+    {% if collection.featured_image %}
+      {{ collection.featured_image | image_url: width: 1200 | image_tag: loading: 'lazy', alt: collection.title }}
+    {% elsif collection.products.first.featured_media %}
+      {{ collection.products.first.featured_media | image_url: width: 1200 | image_tag: loading: 'lazy', alt: collection.title }}
+    {% else %}
+      {{ 'collection-1' | placeholder_svg_tag }}
+    {% endif %}
+  </div>
+  <h3 class="card-collection__title">{{ collection.title }}</h3>
+  {% if collection.description != blank %}<p>{{ collection.description | strip_html | truncate: 110 }}</p>{% endif %}
+</a>

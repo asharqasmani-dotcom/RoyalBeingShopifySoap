@@ -1,0 +1,88 @@
+
+<section class="hero">
+  <div class="hero__media">
+    {% if section.settings.video != blank %}
+      {{ section.settings.video | video_tag: autoplay: true, loop: true, muted: true, controls: false, image_size: '2000x' }}
+    {% elsif section.settings.image != blank %}
+      {{ section.settings.image | image_url: width: 2400 | image_tag: loading: 'eager', sizes: '100vw', alt: section.settings.heading }}
+    {% endif %}
+  </div>
+  <div class="hero__overlay"></div>
+  <div class="hero__content">
+    {% if section.settings.eyebrow != blank %}<div class="hero__eyebrow">{{ section.settings.eyebrow }}</div>{% endif %}
+    <h1>{{ section.settings.heading }}</h1>
+    {% if section.settings.text != blank %}<p style="margin-inline:auto;color:rgba(250,247,240,.92)">{{ section.settings.text }}</p>{% endif %}
+    <div class="hero__actions">
+      {% if section.settings.button_label != blank %}
+        <a class="button button--outline-light" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+      {% endif %}
+      {% if section.settings.button2_label != blank %}
+        <a class="button" href="{{ section.settings.button2_link }}">{{ section.settings.button2_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Hero",
+  "tag": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Luxury Skincare & Wellness"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Royal Being - The Ritual of Being"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Elevate your daily cleansing into a sacred spa ritual with herbal soaps that last and last."
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Background image"
+    },
+    {
+      "type": "video",
+      "id": "video",
+      "label": "Background video (optional)"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Primary CTA",
+      "default": "Shop soaps"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Primary link"
+    },
+    {
+      "type": "text",
+      "id": "button2_label",
+      "label": "Secondary CTA",
+      "default": "Explore collections"
+    },
+    {
+      "type": "url",
+      "id": "button2_link",
+      "label": "Secondary link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Hero"
+    }
+  ]
+}
+{% endschema %}

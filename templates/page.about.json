@@ -1,0 +1,19 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page"
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Shop the ritual",
+        "button_label": "Shop soaps",
+        "button_link": "/collections/all"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "cta"
+  ]
+}

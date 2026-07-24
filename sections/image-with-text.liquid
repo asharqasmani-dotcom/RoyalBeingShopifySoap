@@ -1,0 +1,81 @@
+
+<section class="section">
+  <div class="page-width split {% if section.settings.layout == 'text_first' %}split--reverse{% endif %}">
+    <div class="split__media">
+      {% if section.settings.image != blank %}
+        {{ section.settings.image | image_url: width: 1600 | image_tag: loading: 'lazy', alt: section.settings.heading }}
+      {% else %}{{ 'lifestyle-2' | placeholder_svg_tag }}{% endif %}
+    </div>
+    <div>
+      {% if section.settings.eyebrow != blank %}<div class="product__collection">{{ section.settings.eyebrow }}</div>{% endif %}
+      <h2>{{ section.settings.heading }}</h2>
+      {% if section.settings.text != blank %}<div>{{ section.settings.text }}</div>{% endif %}
+      {% if section.settings.button_label != blank %}
+        <a class="button button--primary" href="{{ section.settings.button_link }}">{{ section.settings.button_label }}</a>
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Image with text",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow",
+      "default": "Our story"
+    },
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "A woman-owned ritual of honest botanicals"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text",
+      "default": "<p>Royal Being began with a simple idea: bringing plant-based, wholesome goodness back to daily self-care. Handcrafted in small batches in the USA.</p>"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button",
+      "default": "Read our story"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+    {
+      "type": "select",
+      "id": "layout",
+      "label": "Layout",
+      "options": [
+        {
+          "value": "image_first",
+          "label": "Image first"
+        },
+        {
+          "value": "text_first",
+          "label": "Text first"
+        }
+      ],
+      "default": "image_first"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with text"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,38 @@
+
+{% assign handle = collection.handle %}
+{% assign theme_class = 'collection-theme--signature' %}
+{% if handle contains 'royal-duke' %}
+  {% assign theme_class = 'collection-theme--duke' %}
+{% elsif handle contains 'royal-kid' %}
+  {% assign theme_class = 'collection-theme--kid' %}
+{% elsif handle contains 'common' %}
+  {% assign theme_class = 'collection-theme--common' %}
+{% elsif handle contains 'royal' %}
+  {% assign theme_class = 'collection-theme--royal' %}
+{% endif %}
+
+<section class="page-banner main-collection-banner {{ theme_class }}">
+  <div class="page-width">
+    {% render 'breadcrumbs' %}
+    <h1>{{ collection.title }}</h1>
+    {% if collection.description != blank %}
+      <div style="max-width:48rem;margin:0 auto">{{ collection.description }}</div>
+    {% elsif section.settings.fallback != blank %}
+      <p>{{ section.settings.fallback }}</p>
+    {% endif %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Collection banner",
+  "settings": [
+    {
+      "type": "textarea",
+      "id": "fallback",
+      "label": "Fallback intro",
+      "default": "Premium herbal bars hand-poured for the Ritual of Being."
+    }
+  ]
+}
+{% endschema %}

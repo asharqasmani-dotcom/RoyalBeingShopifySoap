@@ -1,0 +1,35 @@
+
+<section class="section" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit=4">
+  <div class="page-width">
+    <div class="section-heading"><h2>{{ section.settings.heading }}</h2></div>
+    <div class="grid grid-4" style="margin-top:28px">
+      {% if recommendations.performed and recommendations.products_count > 0 %}
+        {% for product in recommendations.products %}
+          {% render 'product-card', product: product %}
+        {% endfor %}
+      {% else %}
+        {% assign shown = 0 %}
+        {% for coll in product.collections %}
+          {% for rec in coll.products %}
+            {% if rec.id != product.id and shown < 4 %}
+              {% render 'product-card', product: rec %}
+              {% assign shown = shown | plus: 1 %}
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      {% endif %}
+    </div>
+    <div class="section-heading" style="margin-top:48px"><h2>{{ section.settings.heading_also }}</h2>
+      <p>Powered by Shopify Search &amp; Discovery / recommendation apps when connected.</p>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Product recommendations",
+  "settings": [
+    {"type":"text","id":"heading","label":"You may like heading","default":"Other items you may like"},
+    {"type":"text","id":"heading_also","label":"Also purchased heading","default":"Customers who bought this also purchased"}
+  ]
+}
+{% endschema %}

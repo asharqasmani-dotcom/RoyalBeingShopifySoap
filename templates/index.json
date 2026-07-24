@@ -1,0 +1,163 @@
+{
+  "sections": {
+    "hero": {
+      "type": "hero",
+      "settings": {
+        "eyebrow": "Luxury Skincare & Wellness",
+        "heading": "Royal Being - The Ritual of Being",
+        "text": "Elevate your daily cleansing into a sacred spa ritual with herbal soaps that last and last.",
+        "button_label": "Shop soaps",
+        "button_link": "/collections/all",
+        "button2_label": "Explore collections",
+        "button2_link": "/collections"
+      }
+    },
+    "trust": {
+      "type": "trust-strip"
+    },
+    "collections": {
+      "type": "collection-list",
+      "blocks": {
+        "c1": {
+          "type": "collection",
+          "settings": {
+            "title": "The Royal Collection"
+          }
+        },
+        "c2": {
+          "type": "collection",
+          "settings": {
+            "title": "The Signature Collection"
+          }
+        },
+        "c3": {
+          "type": "collection",
+          "settings": {
+            "title": "The Common Collection"
+          }
+        },
+        "c4": {
+          "type": "collection",
+          "settings": {
+            "title": "The Royal Duke Collection"
+          }
+        },
+        "c5": {
+          "type": "collection",
+          "settings": {
+            "title": "The Royal Kid Herbal Collection"
+          }
+        }
+      },
+      "block_order": [
+        "c1",
+        "c2",
+        "c3",
+        "c4",
+        "c5"
+      ],
+      "settings": {
+        "heading": "Shop by collection",
+        "text": "Five curated herbal collections \u2014 regal, signature, everyday, duke, and kids."
+      }
+    },
+    "featured": {
+      "type": "featured-products"
+    },
+    "film": {
+      "type": "video-feature",
+      "settings": {
+        "heading": "The Royal Being film",
+        "text": "Full-collection brand film \u2014 muted by default with accessible controls. Upload the compressed web MP4 in theme settings/files.",
+        "ratio": "horizontal"
+      }
+    },
+    "story": {
+      "type": "image-with-text",
+      "settings": {
+        "eyebrow": "Our story",
+        "heading": "A woman-owned ritual of honest botanicals",
+        "text": "<p>Royal Being began with a simple idea: bringing plant-based, wholesome goodness back to daily self-care. Handcrafted in small batches in the USA.</p>",
+        "button_label": "Read our story",
+        "button_link": "/pages/about",
+        "layout": "image_first"
+      }
+    },
+    "why": {
+      "type": "icon-cards",
+      "blocks": {
+        "b1": {
+          "type": "card",
+          "settings": {
+            "title": "All-natural botanicals",
+            "text": "Formulated with thoughtfully chosen plant oils and butters."
+          }
+        },
+        "b2": {
+          "type": "card",
+          "settings": {
+            "title": "Long-lasting premium bars",
+            "text": "Herbal soaps crafted to last through a luxurious daily ritual."
+          }
+        },
+        "b3": {
+          "type": "card",
+          "settings": {
+            "title": "Transparent care",
+            "text": "Cruelty-free, biodegradable, and free from parabens, synthetic sulfates, and phthalates."
+          }
+        }
+      },
+      "block_order": [
+        "b1",
+        "b2",
+        "b3"
+      ],
+      "settings": {
+        "heading": "Why Royal Being",
+        "text": "One primary promise per section \u2014 premium herbal bars for a sacred daily ritual."
+      }
+    },
+    "watermelon": {
+      "type": "watermelon-feature",
+      "settings": {
+        "button_link": "/products/watermelon-fusion"
+      }
+    },
+    "reviews": {
+      "type": "reviews-teaser"
+    },
+    "newsletter": {
+      "type": "newsletter"
+    },
+    "cta": {
+      "type": "cta-banner",
+      "settings": {
+        "button_link": "/collections/all"
+      }
+    },
+    "subscribe": {
+      "type": "cta-banner",
+      "settings": {
+        "heading": "Subscribe to the ritual",
+        "text": "Automatic monthly delivery once Shopify Subscriptions selling plans are configured per product.",
+        "button_label": "Explore subscriptions",
+        "button_link": "/pages/subscriptions"
+      }
+    }
+  },
+  "order": [
+    "hero",
+    "trust",
+    "collections",
+    "featured",
+    "film",
+    "story",
+    "why",
+    "watermelon",
+    "reviews",
+    "subscribe",
+    "newsletter",
+    "cta"
+  ]
+}

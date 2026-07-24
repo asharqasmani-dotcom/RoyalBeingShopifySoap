@@ -1,0 +1,176 @@
+
+<section class="page-width product" id="Product-{{ section.id }}">
+  <div class="product__media">
+    <div class="product__media-main">
+      {% if product.selected_or_first_available_variant.featured_media %}
+        {% assign media = product.selected_or_first_available_variant.featured_media %}
+      {% else %}
+        {% assign media = product.featured_media %}
+      {% endif %}
+      {% if media %}
+        {{ media | image_url: width: 1600 | image_tag: loading: 'eager', id: 'ProductMainImage', alt: media.alt | default: product.title }}
+      {% else %}
+        {{ 'product-1' | placeholder_svg_tag }}
+      {% endif %}
+    </div>
+    {% if product.media.size > 1 %}
+      <div class="product__thumbs" role="list">
+        {% for m in product.media %}
+          <button type="button" aria-label="View image {{ forloop.index }}" onclick="document.getElementById('ProductMainImage').src='{{ m | image_url: width: 1600 }}'">
+            {{ m | image_url: width: 200 | image_tag: loading: 'lazy', alt: m.alt | default: product.title }}
+          </button>
+        {% endfor %}
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="product__info">
+    {% render 'breadcrumbs' %}
+    {% if product.collections.first %}
+      <div class="product__collection">{{ product.collections.first.title }}</div>
+    {% endif %}
+    <h1 class="product__title">{{ product.title }}</h1>
+    <div class="product__price">{{ product.selected_or_first_available_variant.price | money }}</div>
+    {% if product.metafields.custom.weight_label != blank %}
+      <p><strong>Weight:</strong> {{ product.metafields.custom.weight_label }}</p>
+    {% endif %}
+
+    {% assign coming = false %}
+    {% if product.tags contains 'coming-soon' or product.metafields.custom.launch_status == 'coming_soon' %}
+      {% assign coming = true %}
+    {% endif %}
+
+    {% if coming %}
+      <span class="badge badge--soon">Coming soon</span>
+      <p style="margin-top:14px">This bar is in test / coming-soon status. Join the waitlist and we will notify you when it launches.</p>
+      {% form 'customer' %}
+        <input type="hidden" name="contact[tags]" value="waitlist,{{ product.handle }}">
+        <input class="field__input" type="email" name="contact[email]" placeholder="Email for waitlist" required>
+        <button class="button button--primary" type="submit" style="margin-top:12px">{{ 'products.waitlist' | t }}</button>
+      {% endform %}
+    {% else %}
+      {% form 'product', product, id: 'product-form' %}
+        <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+        <div class="product__qty" data-qty>
+          <button type="button" data-qty-minus aria-label="Decrease">−</button>
+          <input type="number" name="quantity" min="1" value="1" aria-label="{{ 'products.quantity' | t }}">
+          <button type="button" data-qty-plus aria-label="Increase">+</button>
+        </div>
+        <button class="button button--primary button--full" type="submit" name="add" {% unless product.selected_or_first_available_variant.available %}disabled{% endunless %}>
+          {% if product.selected_or_first_available_variant.available %}{{ 'products.add_to_cart' | t }}{% else %}{{ 'products.sold_out' | t }}{% endif %}
+        </button>
+        <div style="margin-top:10px">{{ form | payment_button }}</div>
+      {% endform %}
+      {% unless product.selected_or_first_available_variant.available %}
+        {% form 'customer' %}
+          <input type="hidden" name="contact[tags]" value="back-in-stock,{{ product.handle }}">
+          <input class="field__input" type="email" name="contact[email]" placeholder="Email me when available" required style="margin-top:12px">
+          <button class="button button--outline" type="submit" style="margin-top:10px">Notify me</button>
+        {% endform %}
+      {% endunless %}
+    {% endif %}
+
+    <p style="margin-top:18px;font-size:14px;opacity:.8">Ships to USA, Netherlands & Belgium. Payment icons reflect methods enabled in your Shopify admin.</p>
+    <p><a class="button button--outline" href="/pages/customize-your-soap">{{ 'products.customize' | t }}</a></p>
+
+    <div class="accordion" style="margin-top:28px">
+      <details open>
+        <summary>{{ 'products.description' | t }}</summary>
+        <div class="accordion__content">{{ product.description }}</div>
+      </details>
+      <details>
+        <summary>{{ 'products.key_ingredients' | t }}</summary>
+        <div class="accordion__content">
+          {% if product.metafields.custom.key_ingredients != blank %}
+            {{ product.metafields.custom.key_ingredients }}
+          {% else %}
+            Key ingredients will display from product metafields after import.
+          {% endif %}
+        </div>
+      </details>
+      {% if settings.show_full_ingredients_default or product.metafields.custom.show_full_ingredients %}
+      <details>
+        <summary>{{ 'products.full_ingredients' | t }}</summary>
+        <div class="accordion__content">{{ product.metafields.custom.full_ingredients }}</div>
+      </details>
+      {% endif %}
+      <details>
+        <summary>{{ 'products.weight_sku' | t }}</summary>
+        <div class="accordion__content">
+          <p>Weight: {{ product.metafields.custom.weight_label | default: product.variants.first.weight | weight_with_unit }}</p>
+          <p>SKU: {{ product.selected_or_first_available_variant.sku }}</p>
+        </div>
+      </details>
+      <details>
+        <summary>{{ 'products.how_to_use' | t }}</summary>
+        <div class="accordion__content">{{ section.settings.how_to_use }}</div>
+      </details>
+      <details>
+        <summary>{{ 'products.care' | t }}</summary>
+        <div class="accordion__content">{{ section.settings.care }}</div>
+      </details>
+      <details>
+        <summary>{{ 'products.shipping' | t }}</summary>
+        <div class="accordion__content">{{ section.settings.shipping }}</div>
+      </details>
+      <details>
+        <summary>{{ 'products.reviews' | t }}</summary>
+        <div class="accordion__content">
+          <div class="reviews-empty">Connect a text/photo/video review app block here. No fabricated reviews.</div>
+          {% for block in section.blocks %}
+            <div {{ block.shopify_attributes }}>{% render block %}</div>
+          {% endfor %}
+        </div>
+      </details>
+    </div>
+
+    {% if product.handle == 'watermelon-fusion' %}
+      <div class="ritual-block{% unless settings.publish_watermelon_ritual %} draft-hidden{% endunless %}" {% unless settings.publish_watermelon_ritual %}hidden{% endunless %}>
+        <h2>The Ritual of Being</h2>
+        <p>Indulge in the crisp opulence of a sun-drenched oasis. Watermelon Fusion marries the intensely hydrating, vitamin-rich essence of cold-pressed watermelon seed oil with the cooling touch of crushed wild mint and white tea.</p>
+        <p>Hand-poured and aged in small batches, this ultra-nourishing artisanal spa bar transforms into a rich, velvety milk that gently polishes, deeply restores, and leaves the skin cloaked in a delicate, transcendent luminescence.</p>
+        <p class="closing">Elevate your daily cleansing into a sacred spa ritual.</p>
+      </div>
+    {% endif %}
+  </div>
+</section>
+
+<div class="product__sticky-atc">
+  <div><strong>{{ product.title }}</strong><div>{{ product.price | money }}</div></div>
+  {% unless coming %}
+    <button class="button button--primary" type="submit" form="product-form">{{ 'products.add_to_cart' | t }}</button>
+  {% else %}
+    <a class="button button--primary" href="#Product-{{ section.id }}">Waitlist</a>
+  {% endunless %}
+</div>
+
+{% schema %}
+{
+  "name": "Product information",
+  "settings": [
+    {
+      "type": "richtext",
+      "id": "how_to_use",
+      "label": "How to use",
+      "default": "<p>Wet the bar, work into a soft lather, cleanse, and rinse. Follow with your preferred moisturizer if desired. Patch-test if you have sensitive skin.</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "care",
+      "label": "Care & storage",
+      "default": "<p>Keep your bar dry between uses on a draining dish, away from direct standing water.</p>"
+    },
+    {
+      "type": "richtext",
+      "id": "shipping",
+      "label": "Shipping & returns",
+      "default": "<p>Currently shipping to USA, Netherlands, and Belgium. See Shipping & Returns for owner-approved timelines and policies.</p>"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ]
+}
+{% endschema %}

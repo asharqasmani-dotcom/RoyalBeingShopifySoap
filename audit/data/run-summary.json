@@ -1,0 +1,26 @@
+{
+  "auditedAt": "2026-07-24T17:45:58.450Z",
+  "done": [
+    "collections/desktop",
+    "collections/laptop",
+    "collections/tablet",
+    "collections/mobile",
+    "collections/narrow",
+    "product/desktop",
+    "product/laptop",
+    "product/tablet",
+    "product/mobile",
+    "product/narrow",
+    "about/desktop",
+    "about/laptop",
+    "about/tablet",
+    "about/mobile",
+    "about/narrow",
+    "contact/desktop",
+    "contact/laptop",
+    "contact/tablet",
+    "contact/mobile",
+    "contact/narrow"
+  ],
+  "errors": []
+}

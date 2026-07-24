@@ -1,0 +1,78 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-faq",
+      "blocks": {
+        "q1": {
+          "type": "item",
+          "settings": {
+            "title": "Are your soaps handmade?",
+            "answer": "<p>Yes. Royal Being bars are handcrafted in small batches in the USA.</p>"
+          }
+        },
+        "q2": {
+          "type": "item",
+          "settings": {
+            "title": "Where do you ship?",
+            "answer": "<p>Eligible markets at launch: USA, Netherlands, and Belgium. Worldwide shipping remains aspirational until Markets rates are approved.</p>"
+          }
+        },
+        "q3": {
+          "type": "item",
+          "settings": {
+            "title": "Do you offer subscriptions?",
+            "answer": "<p>Monthly subscriptions are supported via Shopify Subscriptions or a compatible app once selling plans are configured per product.</p>"
+          }
+        },
+        "q4": {
+          "type": "item",
+          "settings": {
+            "title": "What is ROYAL 20?",
+            "answer": "<p>A 20% coupon requested by the brand. Activation rules (dates, stacking, exclusions) require owner approval before enabling in Shopify Admin.</p>"
+          }
+        },
+        "q5": {
+          "type": "item",
+          "settings": {
+            "title": "Can I customize a soap?",
+            "answer": "<p>Yes \u2014 use the Customize Your Soap page for inquiry until options, pricing, and fulfillment rules are confirmed.</p>"
+          }
+        },
+        "q6": {
+          "type": "item",
+          "settings": {
+            "title": "What about sold-out or coming-soon bars?",
+            "answer": "<p>Join the waitlist on the product page. Coming-soon / test-mode products never appear as normal in-stock items.</p>"
+          }
+        },
+        "q7": {
+          "type": "item",
+          "settings": {
+            "title": "How should I store my bar?",
+            "answer": "<p>Keep the bar dry between uses on a draining dish, away from standing water, to help it last and last.</p>"
+          }
+        },
+        "q8": {
+          "type": "item",
+          "settings": {
+            "title": "Are your products cruelty-free?",
+            "answer": "<p>Yes. Royal Being is cruelty-free and biodegradable, formulated without parabens, synthetic sulfates, or phthalates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "q1",
+        "q2",
+        "q3",
+        "q4",
+        "q5",
+        "q6",
+        "q7",
+        "q8"
+      ]
+    }
+  },
+  "order": [
+    "main"
+  ]
+}

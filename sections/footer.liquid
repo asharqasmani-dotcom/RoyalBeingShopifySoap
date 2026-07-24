@@ -1,0 +1,60 @@
+
+<footer class="footer">
+  <div class="page-width footer__grid">
+    <div>
+      <h4>Royal Being</h4>
+      <p>The Ritual of Being — elevate your daily cleansing into a sacred spa ritual.</p>
+      <p style="margin-top:16px">
+        <a href="{{ settings.social_instagram }}">Instagram</a> ·
+        <a href="{{ settings.social_facebook }}">Facebook</a> ·
+        <a href="{{ settings.social_tiktok }}">TikTok</a>
+      </p>
+    </div>
+    <div>
+      <h4>Collections</h4>
+      <ul>
+        <li><a href="/collections/the-royal-collection">The Royal Collection</a></li>
+        <li><a href="/collections/the-signature-collection">The Signature Collection</a></li>
+        <li><a href="/collections/the-common-collection">The Common Collection</a></li>
+        <li><a href="/collections/the-royal-duke-collection">The Royal Duke Collection</a></li>
+        <li><a href="/collections/the-royal-kid-herbal-collection">The Royal Kid Herbal Collection</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Customer care</h4>
+      <ul>
+        <li><a href="/pages/shipping-returns">Shipping & Returns</a></li>
+        <li><a href="/pages/faq">FAQ</a></li>
+        <li><a href="/pages/contact">Contact</a></li>
+        <li><a href="/pages/subscriptions">Subscriptions</a></li>
+        <li><a href="/pages/our-promise">Our Promise</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Newsletter</h4>
+      <p>Join the waitlist and ritual notes.</p>
+      {% form 'customer', class: 'newsletter-form' %}
+        <input type="hidden" name="contact[tags]" value="newsletter,waitlist">
+        <label class="visually-hidden" for="NewsletterEmail-{{ section.id }}">Email</label>
+        <input id="NewsletterEmail-{{ section.id }}" class="field__input" type="email" name="contact[email]" placeholder="Your email address" required>
+        <button class="button button--outline-light" type="submit" style="margin-top:12px;border-color:#FAF7F0;color:#FAF7F0">Subscribe</button>
+      {% endform %}
+    </div>
+  </div>
+  <div class="page-width footer__bottom">
+    <span>&copy; {{ 'now' | date: '%Y' }} Royal Being LLC</span>
+    <span class="footer__payments">{% for type in shop.enabled_payment_types %}{{ type | payment_type_svg_tag }}{% endfor %}</span>
+  </div>
+</footer>
+
+{% schema %}
+{
+  "name": "Footer",
+  "settings": [],
+  "presets": [
+    {
+      "name": "Footer"
+    }
+  ]
+}
+{% endschema %}

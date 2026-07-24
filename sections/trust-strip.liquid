@@ -1,0 +1,71 @@
+
+<section class="trust-strip section--tight">
+  <ul class="page-width trust-strip__list">
+    {% for block in section.blocks %}
+      <li {{ block.shopify_attributes }}>{{ block.settings.text }}</li>
+    {% endfor %}
+  </ul>
+</section>
+
+{% schema %}
+{
+  "name": "Trust strip",
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Item",
+      "settings": [
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text",
+          "default": "100% Handmade"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trust strip",
+      "blocks": [
+        {
+          "type": "item",
+          "settings": {
+            "text": "100% Handmade"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "text": "Hand-poured in small batches"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "text": "Cruelty-free"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "text": "Biodegradable"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "text": "No parabens, synthetic sulfates, or phthalates"
+          }
+        },
+        {
+          "type": "item",
+          "settings": {
+            "text": "Made in USA"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

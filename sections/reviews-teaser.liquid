@@ -1,0 +1,47 @@
+
+<section class="section">
+  <div class="page-width">
+    <div class="section-heading">
+      <h2>{{ section.settings.heading }}</h2>
+      <p>{{ section.settings.text }}</p>
+    </div>
+    <div class="reviews-empty" style="margin-top:28px">
+      <p>Customer text, photo, and video reviews will appear here once a Shopify-compatible review app is connected and moderated submissions are approved. No fabricated testimonials.</p>
+      <a class="button button--outline" href="/pages/reviews">Visit reviews</a>
+    </div>
+    {% comment %} App block support {% endcomment %}
+    {% for block in section.blocks %}
+      <div {{ block.shopify_attributes }}>{% render block %}</div>
+    {% endfor %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Reviews teaser",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Reviews"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Real Royal Beings \u2014 text, photo, and video stories after moderation."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reviews teaser"
+    }
+  ]
+}
+{% endschema %}

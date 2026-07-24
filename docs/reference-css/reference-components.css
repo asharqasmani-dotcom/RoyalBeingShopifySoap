@@ -1,0 +1,263 @@
+/**
+ * Whiff locked component primitives (reference only)
+ * Pair with assets/reference-tokens.css
+ * Not a full theme — pattern contract for the next Shopify build.
+ */
+
+/* —— Page width —— */
+.ref-page-width {
+  max-width: var(--page-width-observed-max);
+  margin-inline: auto;
+  padding-inline: var(--page-gutter);
+}
+
+/* —— Announcement —— */
+.ref-announcement {
+  height: var(--announcement-height);
+  background-color: var(--color-bg-4);
+  color: var(--color-text-on-accent);
+  font-size: var(--body-font-size);
+  font-family: var(--font-body-family);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* —— Header —— */
+.ref-header {
+  min-height: var(--header-height-desktop);
+  background: transparent;
+  color: var(--color-text);
+}
+
+@media (max-width: 989px) {
+  .ref-header {
+    min-height: var(--header-height-mobile);
+  }
+}
+
+.ref-nav-link {
+  font-family: var(--font-heading-family);
+  font-size: var(--nav-font-size);
+  font-weight: 400;
+  text-transform: capitalize;
+  color: var(--color-text);
+  padding: 14px;
+  transition: var(--transition-ui);
+}
+
+.ref-mega-heading {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  line-height: 25px;
+  text-transform: capitalize;
+  padding: 5px 0 10px 12px;
+}
+
+.ref-mega-link {
+  font-size: 15px;
+  line-height: 24px;
+  color: rgba(34, 33, 33, 0.8);
+  padding-bottom: 15px;
+  transition: var(--transition-underline);
+}
+
+/* —— Buttons —— */
+.ref-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: var(--button-height);
+  padding: 0 var(--button-padding-x);
+  font-family: var(--font-body-family);
+  font-size: 16px;
+  font-weight: 400;
+  text-transform: capitalize;
+  border-radius: var(--radius-none);
+  border-width: var(--border-width);
+  border-style: solid;
+  box-shadow: var(--shadow-none);
+  transition: var(--transition-ui);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.ref-button--solid {
+  background-color: var(--color-button-solid-bg);
+  border-color: var(--color-button-solid-border);
+  color: var(--color-button-solid-text);
+}
+
+.ref-button--outline {
+  background-color: transparent;
+  border-color: var(--color-button-outline);
+  color: var(--color-button-outline);
+}
+
+.ref-button--outline-on-media {
+  background-color: transparent;
+  border-color: var(--color-button-outline-on-media);
+  color: var(--color-button-outline-on-media);
+}
+
+.ref-button--full {
+  width: 100%;
+  min-height: var(--button-height-atc);
+}
+
+/* —— Inputs —— */
+.ref-input,
+.ref-textarea {
+  width: 100%;
+  font-family: var(--font-body-family);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--color-text);
+  background-color: var(--color-input-bg);
+  border: var(--border-width) solid var(--color-border);
+  border-radius: var(--radius-none);
+  box-shadow: none;
+  transition: var(--transition-fast);
+}
+
+.ref-input {
+  height: var(--input-height);
+  padding: 0 20px 0 30px;
+}
+
+.ref-textarea {
+  min-height: var(--textarea-height);
+  padding: 20px 20px 20px 30px;
+  resize: vertical;
+}
+
+.ref-input:focus,
+.ref-textarea:focus {
+  outline: 2px solid var(--color-text);
+  outline-offset: 2px;
+}
+
+/* —— Cards —— */
+.ref-card {
+  display: grid;
+  gap: var(--card-gap);
+  background: transparent;
+  border-radius: var(--radius-none);
+  box-shadow: none;
+}
+
+.ref-card__media {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-none);
+}
+
+.ref-card__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: 50% 50%;
+  transition: transform var(--transition-media);
+}
+
+.ref-card:hover .ref-card__media img {
+  transform: scale(1.03);
+}
+
+.ref-card__title {
+  font-family: var(--font-heading-family);
+  font-size: var(--card-title-font-size);
+  font-weight: 400;
+  line-height: 36.4px;
+  text-transform: capitalize;
+  color: var(--color-text);
+  transition: var(--transition-ui);
+}
+
+.ref-card__price {
+  font-size: var(--price-font-size);
+  line-height: 14px;
+  color: var(--color-text);
+}
+
+/* —— Product layout —— */
+.ref-product {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.ref-product__info {
+  padding-left: var(--product-info-pad-left);
+}
+
+.ref-product__title {
+  font-size: var(--product-title-computed);
+  line-height: 50px;
+  text-transform: capitalize;
+  margin: 5px 0 25px;
+}
+
+.ref-qty {
+  display: inline-flex;
+  align-items: center;
+  height: var(--qty-height);
+  width: var(--qty-width);
+}
+
+@media (max-width: 989px) {
+  .ref-product {
+    grid-template-columns: 1fr;
+  }
+
+  .ref-product__info {
+    padding-left: 0;
+    padding-top: var(--space-xl);
+  }
+}
+
+/* —— Footer —— */
+.ref-footer {
+  background-color: var(--color-bg-5);
+  color: var(--color-text-on-accent);
+}
+
+.ref-footer a {
+  color: var(--color-text-on-accent);
+}
+
+/* —— Hero —— */
+.ref-hero {
+  position: relative;
+  min-height: var(--hero-height-desktop);
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 749px) {
+  .ref-hero {
+    min-height: var(--hero-height-mobile);
+  }
+}
+
+.ref-hero__eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  font-size: var(--small-font-size);
+}
+
+/* —— Marquee —— */
+.ref-marquee {
+  background-color: var(--color-bg-3);
+  color: var(--color-text);
+  min-height: 85px;
+  display: flex;
+  align-items: center;
+}
+
+/* —— Section heading —— */
+.ref-section-heading {
+  text-align: center;
+  text-transform: capitalize;
+  margin-inline: auto;
+}

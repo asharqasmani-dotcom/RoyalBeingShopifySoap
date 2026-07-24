@@ -1,0 +1,546 @@
+[
+  {
+    "page": 3,
+    "name": "African Rhapsody",
+    "slug": "african-rhapsody",
+    "folder": "images/products/african-rhapsody",
+    "images": [
+      {
+        "file": "african-rhapsody-02.png",
+        "bytes": 31588795,
+        "source": "p03-img02-27.png"
+      },
+      {
+        "file": "african-rhapsody-03.png",
+        "bytes": 8232202,
+        "source": "p03-img03-28.png"
+      }
+    ]
+  },
+  {
+    "page": 4,
+    "name": "Aloe Vera Wave",
+    "slug": "aloe-vera-wave",
+    "folder": "images/products/aloe-vera-wave",
+    "images": [
+      {
+        "file": "aloe-vera-wave-01.png",
+        "bytes": 10488,
+        "source": "p04-img01-17.png"
+      },
+      {
+        "file": "aloe-vera-wave-02.png",
+        "bytes": 4508806,
+        "source": "p04-img02-35.png"
+      }
+    ]
+  },
+  {
+    "page": 5,
+    "name": "Anti-Aging Herbal Soap",
+    "slug": "anti-aging-herbal-soap",
+    "folder": "images/products/anti-aging-herbal-soap",
+    "images": [
+      {
+        "file": "anti-aging-herbal-soap-02.png",
+        "bytes": 30154323,
+        "source": "p05-img02-39.png"
+      },
+      {
+        "file": "anti-aging-herbal-soap-03.png",
+        "bytes": 16070590,
+        "source": "p05-img03-40.png"
+      }
+    ]
+  },
+  {
+    "page": 6,
+    "name": "Aquatic Escape",
+    "slug": "aquatic-escape",
+    "folder": "images/products/aquatic-escape",
+    "images": [
+      {
+        "file": "aquatic-escape-02.png",
+        "bytes": 25856892,
+        "source": "p06-img02-44.png"
+      },
+      {
+        "file": "aquatic-escape-03.png",
+        "bytes": 15772152,
+        "source": "p06-img03-45.png"
+      }
+    ]
+  },
+  {
+    "page": 7,
+    "name": "Beef Tallow",
+    "slug": "beef-tallow",
+    "folder": "images/products/beef-tallow",
+    "images": [
+      {
+        "file": "beef-tallow-02.png",
+        "bytes": 28279497,
+        "source": "p07-img02-49.png"
+      },
+      {
+        "file": "beef-tallow-03.png",
+        "bytes": 7377548,
+        "source": "p07-img03-50.png"
+      }
+    ]
+  },
+  {
+    "page": 8,
+    "name": "Blissful Lavender",
+    "slug": "blissful-lavender",
+    "folder": "images/products/blissful-lavender",
+    "images": [
+      {
+        "file": "blissful-lavender-01.png",
+        "bytes": 15321929,
+        "source": "p08-img01-54.png"
+      }
+    ]
+  },
+  {
+    "page": 9,
+    "name": "Calm",
+    "slug": "calm",
+    "folder": "images/products/calm",
+    "images": [
+      {
+        "file": "calm-02.png",
+        "bytes": 25536306,
+        "source": "p09-img02-59.png"
+      },
+      {
+        "file": "calm-03.png",
+        "bytes": 7441875,
+        "source": "p09-img03-60.png"
+      }
+    ]
+  },
+  {
+    "page": 10,
+    "name": "Citrus Heaven",
+    "slug": "citrus-heaven",
+    "folder": "images/products/citrus-heaven",
+    "images": [
+      {
+        "file": "citrus-heaven-02.png",
+        "bytes": 23684689,
+        "source": "p10-img02-64.png"
+      },
+      {
+        "file": "citrus-heaven-03.png",
+        "bytes": 4367555,
+        "source": "p10-img03-65.png"
+      }
+    ]
+  },
+  {
+    "page": 12,
+    "name": "Detoxify",
+    "slug": "detoxify",
+    "folder": "images/products/detoxify",
+    "images": [
+      {
+        "file": "detoxify-02.png",
+        "bytes": 30587804,
+        "source": "p12-img02-74.png"
+      },
+      {
+        "file": "detoxify-03.png",
+        "bytes": 8369872,
+        "source": "p12-img03-75.png"
+      }
+    ]
+  },
+  {
+    "page": 13,
+    "name": "Fresh Floral Fiesta",
+    "slug": "fresh-floral-fiesta",
+    "folder": "images/products/fresh-floral-fiesta",
+    "images": [
+      {
+        "file": "fresh-floral-fiesta-02.png",
+        "bytes": 30210709,
+        "source": "p13-img02-79.png"
+      },
+      {
+        "file": "fresh-floral-fiesta-03.png",
+        "bytes": 8585552,
+        "source": "p13-img03-80.png"
+      }
+    ]
+  },
+  {
+    "page": 14,
+    "name": "Glow-rify",
+    "slug": "glow-rify",
+    "folder": "images/products/glow-rify",
+    "images": [
+      {
+        "file": "glow-rify-02.png",
+        "bytes": 33243602,
+        "source": "p14-img02-84.png"
+      },
+      {
+        "file": "glow-rify-03.png",
+        "bytes": 16439440,
+        "source": "p14-img03-85.png"
+      }
+    ]
+  },
+  {
+    "page": 15,
+    "name": "Gilded Age",
+    "slug": "gilded-age",
+    "folder": "images/products/gilded-age",
+    "images": [
+      {
+        "file": "gilded-age-02.png",
+        "bytes": 677826,
+        "source": "p15-img02-89.png"
+      },
+      {
+        "file": "gilded-age-03.png",
+        "bytes": 653130,
+        "source": "p15-img03-90.png"
+      },
+      {
+        "file": "gilded-age-04.png",
+        "bytes": 796654,
+        "source": "p15-img04-91.png"
+      }
+    ]
+  },
+  {
+    "page": 16,
+    "name": "Herbal Galaxy Renewal Soap",
+    "slug": "herbal-galaxy-renewal-soap",
+    "folder": "images/products/herbal-galaxy-renewal-soap",
+    "images": [
+      {
+        "file": "herbal-galaxy-renewal-soap-01.png",
+        "bytes": 31356093,
+        "source": "p16-img01-95.png"
+      }
+    ]
+  },
+  {
+    "page": 17,
+    "name": "Islander",
+    "slug": "islander",
+    "folder": "images/products/islander",
+    "images": [
+      {
+        "file": "islander-02.png",
+        "bytes": 30025105,
+        "source": "p17-img02-100.png"
+      },
+      {
+        "file": "islander-03.png",
+        "bytes": 15454645,
+        "source": "p17-img03-101.png"
+      }
+    ]
+  },
+  {
+    "page": 18,
+    "name": "Melanin Popping",
+    "slug": "melanin-popping",
+    "folder": "images/products/melanin-popping",
+    "images": [
+      {
+        "file": "melanin-popping-02.png",
+        "bytes": 27219707,
+        "source": "p18-img02-105.png"
+      },
+      {
+        "file": "melanin-popping-03.png",
+        "bytes": 14461990,
+        "source": "p18-img03-106.png"
+      }
+    ]
+  },
+  {
+    "page": 19,
+    "name": "Sweet Madagascar",
+    "slug": "sweet-madagascar",
+    "folder": "images/products/sweet-madagascar",
+    "images": [
+      {
+        "file": "sweet-madagascar-02.png",
+        "bytes": 31148305,
+        "source": "p19-img02-110.png"
+      },
+      {
+        "file": "sweet-madagascar-03.png",
+        "bytes": 15911589,
+        "source": "p19-img03-111.png"
+      }
+    ]
+  },
+  {
+    "page": 20,
+    "name": "The Duchess",
+    "slug": "the-duchess",
+    "folder": "images/products/the-duchess",
+    "images": [
+      {
+        "file": "the-duchess-01.png",
+        "bytes": 10488,
+        "source": "p20-img01-17.png"
+      },
+      {
+        "file": "the-duchess-02.png",
+        "bytes": 906616,
+        "source": "p20-img02-115.png"
+      }
+    ]
+  },
+  {
+    "page": 21,
+    "name": "The Enchanted Garden",
+    "slug": "the-enchanted-garden",
+    "folder": "images/products/the-enchanted-garden",
+    "images": [
+      {
+        "file": "the-enchanted-garden-01.png",
+        "bytes": 10488,
+        "source": "p21-img01-17.png"
+      },
+      {
+        "file": "the-enchanted-garden-02.png",
+        "bytes": 213530,
+        "source": "p21-img02-119.png"
+      }
+    ]
+  },
+  {
+    "page": 22,
+    "name": "The Reiny",
+    "slug": "the-reiny",
+    "folder": "images/products/the-reiny",
+    "images": [
+      {
+        "file": "the-reiny-01.png",
+        "bytes": 10488,
+        "source": "p22-img01-17.png"
+      },
+      {
+        "file": "the-reiny-02.png",
+        "bytes": 169568,
+        "source": "p22-img02-123.png"
+      }
+    ]
+  },
+  {
+    "page": 23,
+    "name": "The Rose Garden",
+    "slug": "the-rose-garden",
+    "folder": "images/products/the-rose-garden",
+    "images": [
+      {
+        "file": "the-rose-garden-01.png",
+        "bytes": 31573904,
+        "source": "p23-img01-127.png"
+      }
+    ]
+  },
+  {
+    "page": 24,
+    "name": "Turmeric Swirl",
+    "slug": "turmeric-swirl",
+    "folder": "images/products/turmeric-swirl",
+    "images": [
+      {
+        "file": "turmeric-swirl-02.png",
+        "bytes": 31578752,
+        "source": "p24-img02-131.png"
+      },
+      {
+        "file": "turmeric-swirl-03.png",
+        "bytes": 6580694,
+        "source": "p24-img03-132.png"
+      }
+    ]
+  },
+  {
+    "page": 25,
+    "name": "Watermelon Fusion",
+    "slug": "watermelon-fusion",
+    "folder": "images/products/watermelon-fusion",
+    "images": [
+      {
+        "file": "watermelon-fusion-02.png",
+        "bytes": 33279391,
+        "source": "p25-img02-137.png"
+      },
+      {
+        "file": "watermelon-fusion-03.png",
+        "bytes": 16359481,
+        "source": "p25-img03-138.png"
+      }
+    ]
+  },
+  {
+    "page": 26,
+    "name": "Zen Moment",
+    "slug": "zen-moment",
+    "folder": "images/products/zen-moment",
+    "images": [
+      {
+        "file": "zen-moment-02.png",
+        "bytes": 68045,
+        "source": "p26-img02-142.png"
+      },
+      {
+        "file": "zen-moment-03.png",
+        "bytes": 101668,
+        "source": "p26-img03-143.png"
+      }
+    ]
+  },
+  {
+    "page": 27,
+    "name": "Bamboozled",
+    "slug": "bamboozled",
+    "folder": "images/products/bamboozled",
+    "images": [
+      {
+        "file": "bamboozled-04.png",
+        "bytes": 61145,
+        "source": "p27-img04-149.png"
+      },
+      {
+        "file": "bamboozled-05.png",
+        "bytes": 52286,
+        "source": "p27-img05-150.png"
+      }
+    ]
+  },
+  {
+    "page": 28,
+    "name": "Woody",
+    "slug": "woody",
+    "folder": "images/products/woody",
+    "images": [
+      {
+        "file": "woody-01.png",
+        "bytes": 10488,
+        "source": "p28-img01-17.png"
+      },
+      {
+        "file": "woody-02.png",
+        "bytes": 1994,
+        "source": "p28-img02-156.png"
+      }
+    ]
+  },
+  {
+    "page": 29,
+    "name": "The Ethan",
+    "slug": "the-ethan",
+    "folder": "images/products/the-ethan",
+    "images": [
+      {
+        "file": "the-ethan-02.png",
+        "bytes": 298156,
+        "source": "p29-img02-160.png"
+      },
+      {
+        "file": "the-ethan-03.png",
+        "bytes": 465922,
+        "source": "p29-img03-161.png"
+      }
+    ]
+  },
+  {
+    "page": 30,
+    "name": "The Aristocrat",
+    "slug": "the-aristocrat",
+    "folder": "images/products/the-aristocrat",
+    "images": [
+      {
+        "file": "the-aristocrat-01.png",
+        "bytes": 10488,
+        "source": "p30-img01-17.png"
+      },
+      {
+        "file": "the-aristocrat-02.png",
+        "bytes": 47156,
+        "source": "p30-img02-165.png"
+      }
+    ]
+  },
+  {
+    "page": 31,
+    "name": "Teakwood",
+    "slug": "teakwood",
+    "folder": "images/products/teakwood",
+    "images": []
+  },
+  {
+    "page": 32,
+    "name": "The Chloe",
+    "slug": "the-chloe",
+    "folder": "images/products/the-chloe",
+    "images": []
+  },
+  {
+    "page": 33,
+    "name": "The Bodhi",
+    "slug": "the-bodhi",
+    "folder": "images/products/the-bodhi",
+    "images": [
+      {
+        "file": "the-bodhi-01.png",
+        "bytes": 10488,
+        "source": "p33-img01-17.png"
+      },
+      {
+        "file": "the-bodhi-02.png",
+        "bytes": 24088,
+        "source": "p33-img02-182.png"
+      }
+    ]
+  },
+  {
+    "page": 34,
+    "name": "The Matthew",
+    "slug": "the-matthew",
+    "folder": "images/products/the-matthew",
+    "images": [
+      {
+        "file": "the-matthew-01.png",
+        "bytes": 10488,
+        "source": "p34-img01-17.png"
+      },
+      {
+        "file": "the-matthew-02.png",
+        "bytes": 7233,
+        "source": "p34-img02-186.png"
+      }
+    ]
+  },
+  {
+    "page": 35,
+    "name": "The Iris",
+    "slug": "the-iris",
+    "folder": "images/products/the-iris",
+    "images": [
+      {
+        "file": "the-iris-01.png",
+        "bytes": 10488,
+        "source": "p35-img01-17.png"
+      },
+      {
+        "file": "the-iris-02.png",
+        "bytes": 431759,
+        "source": "p35-img02-190.png"
+      }
+    ]
+  }
+]

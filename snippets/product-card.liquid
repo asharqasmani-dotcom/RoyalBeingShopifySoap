@@ -1,0 +1,23 @@
+
+{% comment %} expects product {% endcomment %}
+<a class="card-product" href="{{ product.url }}">
+  <div class="card-product__media">
+    {% if product.featured_media %}
+      {{ product.featured_media | image_url: width: 900 | image_tag: loading: 'lazy', sizes: '(min-width:990px) 25vw, 50vw', alt: product.featured_media.alt | default: product.title }}
+    {% else %}
+      {{ 'product-1' | placeholder_svg_tag }}
+    {% endif %}
+    {% assign launch = product.metafields.custom.launch_status | default: product.tags | join: ',' %}
+    {% if product.tags contains 'coming-soon' or product.metafields.custom.launch_status == 'coming_soon' %}
+      <span class="badge badge--soon" style="position:absolute;left:12px;top:12px">Coming soon</span>
+    {% endif %}
+  </div>
+  <h3 class="card-product__title">{{ product.title }}</h3>
+  <div class="card-product__price">
+    {% if product.tags contains 'coming-soon' or product.metafields.custom.launch_status == 'coming_soon' %}
+      Preview
+    {% else %}
+      {{ product.price | money }}
+    {% endif %}
+  </div>
+</a>

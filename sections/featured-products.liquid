@@ -1,0 +1,70 @@
+
+<section class="section">
+  <div class="page-width">
+    <div class="section-heading">
+      <h2>{{ section.settings.heading }}</h2>
+      {% if section.settings.text != blank %}<p>{{ section.settings.text }}</p>{% endif %}
+    </div>
+    <div class="grid grid-4" style="margin-top:36px">
+      {% assign coll = collections[section.settings.collection] %}
+      {% assign shown = 0 %}
+      {% if coll != blank %}
+        {% for product in coll.products %}
+          {% if shown < section.settings.limit %}
+            {% unless product.tags contains 'coming-soon' or product.metafields.custom.launch_status == 'coming_soon' %}
+              {% render 'product-card', product: product %}
+              {% assign shown = shown | plus: 1 %}
+            {% endunless %}
+          {% endif %}
+        {% endfor %}
+      {% endif %}
+      {% if shown == 0 %}
+        {% for i in (1..4) %}
+          <div class="card-product">
+            <div class="card-product__media">{{ 'product-1' | placeholder_svg_tag }}</div>
+            <h3 class="card-product__title">Featured soap</h3>
+          </div>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Featured products",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Featured herbal soaps"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Launch-ready bars selected for the ritual — coming-soon items stay hidden here."
+    },
+    {
+      "type": "collection",
+      "id": "collection",
+      "label": "Collection"
+    },
+    {
+      "type": "range",
+      "id": "limit",
+      "min": 2,
+      "max": 8,
+      "step": 1,
+      "label": "Products",
+      "default": 4
+    }
+  ],
+  "presets": [
+    {
+      "name": "Featured products"
+    }
+  ]
+}
+{% endschema %}

@@ -1,0 +1,146 @@
+[
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR 2.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Yes \u2014 character sheet; use cropped panels",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": true
+  },
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR 3.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Inspect for mood-board text",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR 4.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Inspect for mood-board text",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR 5.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Inspect for mood-board text",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR 6.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Inspect for mood-board text",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR 7.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Inspect for mood-board text",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR 8.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Inspect for mood-board text",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR 9.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Inspect for mood-board text",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ROYAL BEING AI AMBASSADOR.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Inspect for mood-board text",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ambassador-2-closeup-face.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Yes \u2014 labels removed",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ambassador-2-hands-soap.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Yes \u2014 labels removed",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ambassador-2-profile.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Yes \u2014 labels removed",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "ambassador-2-robe.png",
+    "subject": "Brand ambassador lifestyle",
+    "intended_pages": "Home story, collection landings, About",
+    "crop": "Yes \u2014 labels removed",
+    "alt": "Royal Being brand ambassador in spa ritual setting",
+    "remove_text": false
+  },
+  {
+    "filename": "logo.png",
+    "subject": "Primary circular logo",
+    "intended_pages": "Header, footer, favicon source",
+    "crop": "None",
+    "alt": "Royal Being logo",
+    "remove_text": false
+  },
+  {
+    "filename": "watermelon-schematics.png",
+    "subject": "Watermelon Fusion packaging schematics",
+    "intended_pages": "Watermelon feature, PDP",
+    "crop": "Use as color/shape reference; crop production notes if shown",
+    "alt": "Watermelon Fusion soap packaging schematic",
+    "remove_text": true
+  },
+  {
+    "filename": "watermelon-ritual-flap.jpeg",
+    "subject": "Ritual of Being inside-flap copy",
+    "intended_pages": "Internal reference only until published",
+    "crop": "Do not show production labels on storefront",
+    "alt": "Watermelon Fusion ritual copy reference",
+    "remove_text": true
+  },
+  {
+    "filename": "ROYAL-BEING-AD-horizontal.mp4",
+    "subject": "Full collection brand film",
+    "intended_pages": "Home video feature",
+    "crop": "16:9 desktop; letterbox/crop thoughtfully on mobile",
+    "alt": "Royal Being collection film",
+    "remove_text": false
+  },
+  {
+    "filename": "WATERMELON-FUSION-Wide.mp4",
+    "subject": "Watermelon Fusion long-form video",
+    "intended_pages": "Home watermelon feature, PDP",
+    "crop": "Supplied file is 1920x1080 horizontal despite vertical request \u2014 use responsive container",
+    "alt": "Watermelon Fusion soap film",
+    "remove_text": false
+  }
+]

@@ -1,0 +1,13 @@
+node_modules/
+.DS_Store
+.shopify/
+*.log
+.theme-check.yml.bak
+
+# Local-only bulky assets — upload via Shopify Files / Admin, not GitHub
+content/raw/
+content/extracted/
+content/images/
+content/videos/
+media/
+audit/screenshots/

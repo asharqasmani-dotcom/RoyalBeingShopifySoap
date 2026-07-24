@@ -1,0 +1,29 @@
+
+<div class="announcement-bar" role="region" aria-label="Announcement">
+  <div class="page-width">
+    {% if section.settings.text != blank %}
+      {{ section.settings.text }}
+    {% else %}
+      {{ settings.announcement_text }}
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Announcement bar",
+  "settings": [
+    {
+      "type": "text",
+      "id": "text",
+      "label": "Text",
+      "default": "Hand-poured in small batches \u00b7 Ships to USA, Netherlands & Belgium"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Announcement bar"
+    }
+  ]
+}
+{% endschema %}

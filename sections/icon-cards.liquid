@@ -1,0 +1,82 @@
+
+<section class="section" style="background:#efe8dc">
+  <div class="page-width">
+    <div class="section-heading"><h2>{{ section.settings.heading }}</h2>{% if section.settings.text != blank %}<p>{{ section.settings.text }}</p>{% endif %}</div>
+    <div class="grid grid-3" style="margin-top:36px">
+      {% for block in section.blocks %}
+        <div {{ block.shopify_attributes }}>
+          <h3>{{ block.settings.title }}</h3>
+          <p>{{ block.settings.text }}</p>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Why cards",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Why Royal Being"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Conservative cosmetic benefits \u2014 never fabricated medical claims."
+    }
+  ],
+  "blocks": [
+    {
+      "type": "card",
+      "name": "Card",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title",
+          "default": "Small-batch care"
+        },
+        {
+          "type": "textarea",
+          "id": "text",
+          "label": "Text",
+          "default": "Hand-poured bars made to feel nourishing and gentle on skin."
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Why cards",
+      "blocks": [
+        {
+          "type": "card",
+          "settings": {
+            "title": "All-natural botanicals",
+            "text": "Formulated with thoughtfully chosen plant oils and butters."
+          }
+        },
+        {
+          "type": "card",
+          "settings": {
+            "title": "Long-lasting premium bars",
+            "text": "Herbal soaps crafted to last through a luxurious daily ritual."
+          }
+        },
+        {
+          "type": "card",
+          "settings": {
+            "title": "Transparent care",
+            "text": "Cruelty-free, biodegradable, and free from parabens, synthetic sulfates, and phthalates."
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

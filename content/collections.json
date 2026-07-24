@@ -1,0 +1,65 @@
+[
+  {
+    "name": "The Royal Collection",
+    "audience": "General / Signature luxury florals & regal bars",
+    "products": [
+      "Glow-rify",
+      "The Rose Garden",
+      "Fresh Floral Fiesta",
+      "The Enchanted Garden",
+      "Gilded Age",
+      "The Reiny",
+      "The Duchess"
+    ]
+  },
+  {
+    "name": "The Signature Collection",
+    "audience": "Core signature herbal bars",
+    "products": [
+      "African Rhapsody",
+      "Aquatic Escape",
+      "Herbal Galaxy Renewal Soap",
+      "Sweet Madagascar",
+      "Melanin Popping",
+      "Turmeric Swirl",
+      "Charcoal Moment",
+      "Islander",
+      "Watermelon Fusion",
+      "Zen Moment"
+    ]
+  },
+  {
+    "name": "The Common Collection",
+    "audience": "Everyday herbal bars",
+    "products": [
+      "Anti-Aging Herbal Soap",
+      "Aloe Vera Wave",
+      "Beef Tallow",
+      "Blissful Lavender",
+      "Detoxify",
+      "Citrus Heaven",
+      "Calm"
+    ]
+  },
+  {
+    "name": "The Royal Duke Collection",
+    "audience": "Specifically for Men",
+    "products": [
+      "The Ethan",
+      "The Aristocrat",
+      "Woody",
+      "Bamboozled",
+      "Teakwood"
+    ]
+  },
+  {
+    "name": "The Royal Kid Herbal Collection",
+    "audience": "Specifically for Kids",
+    "products": [
+      "The Chloe",
+      "The Bodhi",
+      "The Matthew",
+      "The Iris"
+    ]
+  }
+]

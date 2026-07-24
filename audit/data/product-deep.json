@@ -1,0 +1,250 @@
+{
+  "title": {
+    "text": "Lemon White Snow",
+    "fontSize": "16px",
+    "fontFamily": "Asul, serif",
+    "fontWeight": "400",
+    "color": "rgb(34, 33, 33)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "0px 0px 0px 0px",
+    "borderRadius": "0px",
+    "height": "50px",
+    "width": "630px"
+  },
+  "price": {
+    "text": "Regular price\n      \n       $3.00 USD\n      \n    \n          \n      Sale price\n      \n       $3.00 US",
+    "fontSize": "14px",
+    "fontFamily": "Asul, serif",
+    "fontWeight": "400",
+    "color": "rgb(34, 33, 33)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "0px 0px 0px 0px",
+    "borderRadius": "0px",
+    "height": "0px",
+    "width": "0px"
+  },
+  "gallery": {
+    "text": "Skip To Product Information\nOpen media 1 in modal",
+    "fontSize": "16px",
+    "fontFamily": "Asul, serif",
+    "fontWeight": "400",
+    "color": "rgb(34, 33, 33)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "0px 0px 0px 0px",
+    "borderRadius": "0px",
+    "height": "1000px",
+    "width": "680px"
+  },
+  "info": {
+    "text": "HANDMADE\n\nLemon White Snow\n\nStimulate your faculties with our Lemon white snow cleanser. Implanted w",
+    "fontSize": "16px",
+    "fontFamily": "Asul, serif",
+    "fontWeight": "400",
+    "color": "rgb(34, 33, 33)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "0px 0px 0px 50px",
+    "borderRadius": "0px",
+    "height": "1000px",
+    "width": "680px"
+  },
+  "mediaInfoRatio": {
+    "galleryW": 680,
+    "infoW": 680
+  },
+  "addToCart": {
+    "text": "Add To Cart",
+    "fontSize": "16px",
+    "fontFamily": "Asul, serif",
+    "fontWeight": "400",
+    "color": "rgb(34, 33, 33)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "0px 30px 0px 30px",
+    "borderRadius": "0px",
+    "height": "50px",
+    "width": "453px"
+  },
+  "quantity": {
+    "text": "Decrease quantity for Lemon white snow\nIncrease quantity for Lemon white snow",
+    "fontSize": "16px",
+    "fontFamily": "Asul, serif",
+    "fontWeight": "400",
+    "color": "rgb(34, 33, 33)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "0px 0px 0px 0px",
+    "borderRadius": "0px",
+    "height": "50px",
+    "width": "162px"
+  },
+  "variants": [
+    {
+      "text": "Weight\n75g\n100g\n125g\n150g",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "98px",
+      "width": "630px"
+    },
+    {
+      "text": "Weight\n75g\n100g\n125g\n150g",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "98px",
+      "width": "626px"
+    },
+    {
+      "text": "Decrease quantity for Lemon white snow\nIncrease quantity for Lemon white snow",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "50px",
+      "width": "162px"
+    },
+    {
+      "text": "Quantity\n                  \n\n                  \n                    \n                      Decrease ",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "0px",
+      "width": "0px"
+    },
+    {
+      "text": "weight\n                              \n                              \n                               ",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "0px",
+      "width": "0px"
+    },
+    {
+      "text": "weight\n                              \n                              \n                               ",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "0px",
+      "width": "0px"
+    }
+  ],
+  "tabs": [
+    {
+      "text": "Add note\n                \n                  \n          \n        \n        \n        \n        \n        ",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "0px",
+      "width": "0px"
+    },
+    {
+      "text": "Gift wrap\n        \n         \n\n  \n    \n    \n       \n  \n   \n      Add this gift wrap worth of  $50.00 ",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "0px",
+      "width": "0px"
+    },
+    {
+      "text": "Shipping \n        \n          \n\n  \n    \n      Country\n      \n        India\n---\nAustralia\nAustria\nBelg",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "0px",
+      "width": "0px"
+    },
+    {
+      "text": "Menu\n          \n          \n            \n              \n                 \n\n\n\n\n\n\n\n\n\n\n\n\n               ",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "0px",
+      "width": "0px"
+    },
+    {
+      "text": "Shop\n                      \n\n\n\n\n\n\n\n\n\n                          \n\n\n\n\n \n                    \n        \n",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "0px",
+      "width": "0px"
+    },
+    {
+      "text": "Description",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "65px",
+      "width": "1360px"
+    },
+    {
+      "text": "Shipping Information",
+      "fontSize": "16px",
+      "fontFamily": "Asul, serif",
+      "fontWeight": "400",
+      "color": "rgb(34, 33, 33)",
+      "backgroundColor": "rgba(0, 0, 0, 0)",
+      "padding": "0px 0px 0px 0px",
+      "borderRadius": "0px",
+      "height": "65px",
+      "width": "1360px"
+    }
+  ],
+  "breadcrumb": {
+    "text": "Home  Gentle Cleansers  Lemon White Snow",
+    "fontSize": "16px",
+    "fontFamily": "Asul, serif",
+    "fontWeight": "400",
+    "color": "rgb(34, 33, 33)",
+    "backgroundColor": "rgba(0, 0, 0, 0)",
+    "padding": "100px 0px 100px 0px",
+    "borderRadius": "0px",
+    "height": "236px",
+    "width": "1360px"
+  }
+}

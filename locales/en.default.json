@@ -1,0 +1,50 @@
+{
+  "general": {
+    "continue_shopping": "Continue shopping",
+    "search": "Search",
+    "cart": "Cart",
+    "account": "Account",
+    "menu": "Menu",
+    "close": "Close",
+    "submit": "Submit",
+    "loading": "Loading\u2026"
+  },
+  "accessibility": {
+    "skip_to_content": "Skip to content",
+    "close": "Close"
+  },
+  "products": {
+    "add_to_cart": "Add to cart",
+    "sold_out": "Sold out",
+    "coming_soon": "Coming soon",
+    "preorder": "Pre-order",
+    "waitlist": "Join the waitlist",
+    "quantity": "Quantity",
+    "price": "Price",
+    "vendor": "Vendor",
+    "description": "Description",
+    "key_ingredients": "Key ingredients",
+    "full_ingredients": "Full ingredients",
+    "weight_sku": "Weight & SKU",
+    "how_to_use": "How to use",
+    "care": "Care & storage",
+    "shipping": "Shipping & returns",
+    "you_may_like": "Other items you may like",
+    "also_purchased": "Customers who bought this also purchased",
+    "reviews": "Reviews",
+    "customize": "Customize your soap"
+  },
+  "newsletter": {
+    "label": "Email",
+    "success": "Thanks for joining the Royal Being circle.",
+    "button": "Subscribe"
+  },
+  "contact": {
+    "form_title": "Get in touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Thank you \u2014 we will reply soon."
+  }
+}

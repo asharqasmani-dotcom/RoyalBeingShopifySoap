@@ -1,0 +1,48 @@
+{
+  "desktop": {
+    "sticky": {
+      "tag": "STICKY-HEADER",
+      "position": "relative",
+      "top": "0px",
+      "y": 0,
+      "h": 0
+    },
+    "searchOpened": true,
+    "cart": {
+      "found": true,
+      "display": "flex",
+      "visibility": "hidden",
+      "transform": "none"
+    },
+    "menu": {
+      "found": true,
+      "display": "none",
+      "visibility": "visible",
+      "classes": ""
+    },
+    "cardHover": true
+  },
+  "mobile": {
+    "sticky": {
+      "tag": "STICKY-HEADER",
+      "position": "relative",
+      "top": "0px",
+      "y": -64,
+      "h": 64
+    },
+    "searchOpened": true,
+    "cart": {
+      "found": true,
+      "display": "flex",
+      "visibility": "hidden",
+      "transform": "none"
+    },
+    "menu": {
+      "found": true,
+      "display": "block",
+      "visibility": "visible",
+      "classes": ""
+    },
+    "cardHover": true
+  }
+}

@@ -1,0 +1,45 @@
+
+<section class="section section--tight" style="background:#efe8dc">
+  <div class="page-width section-heading">
+    <h2>{{ section.settings.heading }}</h2>
+    <p>{{ section.settings.text }}</p>
+    {% form 'customer' %}
+      <input type="hidden" name="contact[tags]" value="newsletter,waitlist">
+      <div style="display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin-top:18px">
+        <input class="field__input" style="max-width:360px" type="email" name="contact[email]" placeholder="Your email address" required>
+        <button class="button button--primary" type="submit">{{ section.settings.button_label }}</button>
+      </div>
+    {% endform %}
+  </div>
+</section>
+
+{% schema %}
+{
+  "name": "Newsletter",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Waitlist & ritual notes"
+    },
+    {
+      "type": "textarea",
+      "id": "text",
+      "label": "Text",
+      "default": "Be first to know when coming-soon bars launch. Coupon ROYAL 20 details activate after owner approval."
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button",
+      "default": "Join"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Newsletter"
+    }
+  ]
+}
+{% endschema %}
