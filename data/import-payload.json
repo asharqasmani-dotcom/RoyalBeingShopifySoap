@@ -1,0 +1,787 @@
+{
+  "store": "tvpvh0-yc.myshopify.com",
+  "collections": [
+    {
+      "title": "The Royal Collection",
+      "handle": "the-royal-collection",
+      "products": [
+        "Glow-rify",
+        "The Rose Garden",
+        "Fresh Floral Fiesta",
+        "The Enchanted Garden",
+        "Gilded Age",
+        "The Reiny",
+        "The Duchess"
+      ]
+    },
+    {
+      "title": "The Signature Collection",
+      "handle": "the-signature-collection",
+      "products": [
+        "African Rhapsody",
+        "Aquatic Escape",
+        "Herbal Galaxy Renewal Soap",
+        "Sweet Madagascar",
+        "Melanin Popping",
+        "Turmeric Swirl",
+        "Charcoal Moment",
+        "Islander",
+        "Watermelon Fusion",
+        "Zen Moment"
+      ]
+    },
+    {
+      "title": "The Common Collection",
+      "handle": "the-common-collection",
+      "products": [
+        "Anti-Aging Herbal Soap",
+        "Aloe Vera Wave",
+        "Beef Tallow",
+        "Blissful Lavender",
+        "Detoxify",
+        "Citrus Heaven",
+        "Calm"
+      ]
+    },
+    {
+      "title": "The Royal Duke Collection",
+      "handle": "the-royal-duke-collection",
+      "products": [
+        "The Ethan",
+        "The Aristocrat",
+        "Woody",
+        "Bamboozled",
+        "Teakwood"
+      ]
+    },
+    {
+      "title": "The Royal Kid Herbal Collection",
+      "handle": "the-royal-kid-herbal-collection",
+      "products": [
+        "The Chloe",
+        "The Bodhi",
+        "The Matthew",
+        "The Iris"
+      ]
+    }
+  ],
+  "products": [
+    {
+      "title": "African Rhapsody",
+      "handle": "african-rhapsody",
+      "body_html": "<p>Experience the cleansing power of African black soap made from plantain skins and cocoa pod. This all natural, nutrient-rich herbal bar is celebrated for its deep cleansing, exfoliating, and antibacterial properties. It is enriched with skin loving ingredients and infused with herbal essential oils. African Rhapsody balances oils, moisturizes skin with the wholesome goodness of Goat\u2019s milk and cleanses without any harsh synthetic chemicals.</p><p><strong>Ingredients:</strong> Organic African Black Soap, Shea Butter, Goats Milk, Lemon Oil, Sweet Orange Oil, Sweet Almond Oil, Frankincense Oil, Eucalyptus Oil, Neroli Oil, Raw Honey, Vanilla Oil, Clove Oil, Cypress Oil, and Natural Preservative</p><p><strong>Weight:</strong> 6.7 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "AFR-HER-BAR-06",
+      "price": "18.99",
+      "weight": "6.7 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/african-rhapsody/african-rhapsody-6d3f62.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/african-rhapsody/african-rhapsody-12f099.jpg"
+      ]
+    },
+    {
+      "title": "Aloe Vera Wave",
+      "handle": "aloe-vera-wave",
+      "body_html": "<p>Discover the healing essence of Aloe Vera Wave. This revitalizing herbal soap bar with skin- healing ingredients such as Aloe Vera Base and gel is infused with Aloe Vera Oil and Violet to bring about a calming, relaxing, body cleansing experience. Aloe vera is a versatile succulent packed with vitamins, minerals, and antioxidants. It is celebrated for its moisturizing effect, and a fan favorite for its soothing and healing qualities. Aloe Vera Wave transcends skincare, its clear purifying gel offers a variety of health and wellness perks for your skin.</p><p><strong>Ingredients:</strong> Aloe Vera Base, Aloe Vera Gel, Goat\u2019s Milk, Aloe Vera Oil, Cucumber Oil, Violet Oil, Natural Coloring and Natural Preservative.</p><p><strong>Weight:</strong> 6.7 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Common Collection",
+        "herbal-soap"
+      ],
+      "sku": "ALO-HER-BAR-06",
+      "price": "14.99",
+      "weight": "6.7 OZ",
+      "collection": "The Common Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aloe-vera-wave/aloe-vera-wave-mini-58a827.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aloe-vera-wave/aloe-vera-wave1-e9a745.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aloe-vera-wave/aloe-vera-wave-ff7869.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aloe-vera-wave/aloe-vrera-wave-min-f91038.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aloe-vera-wave/aloe-vera-wave-095a1d.jpg"
+      ]
+    },
+    {
+      "title": "Anti-Aging Herbal Soap",
+      "handle": "anti-aging-herbal-soap",
+      "body_html": "<p>Unwind time with our high-quality time capsule in a bar. Our Anti-Aging Herbal soap is formulated with age reversing butters that are powerful, skin loving, and infused with beneficial essential oils such as Frankincense Oil to target signs of aging. This nutrient-dense herbal soap produces very gentle lathers that are packed with lauric acid, oleic acid, and Vitamin A. Experience the effects of deep skin penetration and hydration, without clogging pores. Renew, and rejuvenate your skin with each cleanse.</p><p><strong>Ingredients:</strong> Goats Milk, Oat Milk Base, Honey Base, Kokum Butter, Murumuru Butter, Tucuma Butter, Cupuacu Butter, Ucuuba Butter, Coconut Oil, Frankincense Oil, Lotus Oil, Eucalyptus Oil, Lavender Oil, Chamomile Oil, Japanese Magnolia Oil, and Natural Preservative</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Common Collection",
+        "herbal-soap"
+      ],
+      "sku": "AA-SH-ROS-BR-04",
+      "price": "25.0",
+      "weight": "6.3 OZ",
+      "collection": "The Common Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/anti-aging-herbal-soap/anti-aging-herbal-soap-c3ee0e.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/anti-aging-herbal-soap/anti-aging-herbal-soap2-64da1d.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/anti-aging-herbal-soap/anti-aging-herbal-soap3-498f1a.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/anti-aging-herbal-soap/anti-aging-herbal-soap1-666d44.jpg"
+      ]
+    },
+    {
+      "title": "Aquatic Escape",
+      "handle": "aquatic-escape",
+      "body_html": "<p>Elevate your skincare routine with Aquatic Escape made from skin loving moisturizing ingredients such as Goat\u2019s Milk and Hawaiian Sandalwood. This all natural, nutrient-rich herbal bar is celebrated for its deep cleansing, natural scents, and earthy properties. Treat your skin and senses to the delightful scents of the ocean and beyond without any harsh synthetic chemicals.</p><p><strong>Ingredients:</strong> Goats Milk, Glycerin, Coconut Oil, Lime Oil, Lavender Oil, Violet Oil, East Indian Sandalwood, Hawaiian Sandalwood, Sweet Orange Oil, Grapefruit Oil, Eucalyptus Oil, Seaweed FO, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "AQU-HER-BAR-04",
+      "price": "25.0",
+      "weight": "7.3 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aquatic-escape/aquatic-escape-8e2bc6.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aquatic-escape/aquatic-escape-copy-636a4a.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aquatic-escape/aquatic-escape2-1642ad.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/aquatic-escape/aquatic-escape1-594b31.jpg"
+      ]
+    },
+    {
+      "title": "Beef Tallow",
+      "handle": "beef-tallow",
+      "body_html": "<p>Embrace nature with our Beef Tallow Herbal soap enriched with skin loving, moisturizing ingredients and beneficial essential oils. Our unique blend of grass fed, pasture raised Beef Tallow and Goat\u2019s Milk, offer a nourishing blend that deeply moisturizes skin without a greasy feel. Our formulation exfoliates, hydrates, and renews your skin with every use.</p><p><strong>Ingredients:</strong> Pasture Raised, Grass Fed Beef Tallow, Goat\u2019s Milk, Oatmeal Base, Honey, Coconut Oil, Olive Oil, Castor Oil, Tea tree Oil, Mint Oil, and Lavender Oil.</p><p><strong>Weight:</strong> 6.39 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Common Collection",
+        "herbal-soap"
+      ],
+      "sku": "BEE-HER-BAR-06",
+      "price": "14.99",
+      "weight": "6.39 OZ",
+      "collection": "The Common Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/beef-tallow/beef-tallow-copy-601f1b.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/beef-tallow/beef-tallow1-1ba2b9.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/beef-tallow/beef-tallow2-9f1dfc.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/beef-tallow/beef-tallow-0a2966.jpg"
+      ]
+    },
+    {
+      "title": "Blissful Lavender",
+      "handle": "blissful-lavender",
+      "body_html": "<p>Invite a natural calming effect with our Blissful Lavender Herbal soap bar enriched with skin loving moisturizing ingredients and beneficial essential oils such as Goat\u2019s Milk and Lavender Oil. Our unique blend of mindful ingredients relaxes the nervous system, a reason Lavender is widely celebrated. Its rich compounds of linalool and linalyl acetate, alongside its wonderful aroma, interacts with brain receptors to reduce stress, improve sleep quality, alleviate minor tension headaches, and offer a great boost to your mood. Experience the wonderful cleansing power of Blissful Lavender while enjoying hydration, restoration, and rejuvenation of your skin with each use.</p><p><strong>Ingredients:</strong> Goat\u2019s Milk, Lavender Oil, Vitamin E Oil, Bergamot Oil, Mint Oil, Lavender Buds, Natural Coloring and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Common Collection",
+        "herbal-soap"
+      ],
+      "sku": "BLI-HER-BAR-06",
+      "price": "14.99",
+      "weight": "6.3 OZ",
+      "collection": "The Common Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/blissful-lavender/blissful-lavender1-a9ddf6.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/blissful-lavender/blissful-lavender-ada6cb.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/blissful-lavender/blissful-lavender-4-afd8be.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/blissful-lavender/blissful-lavender5-898edb.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/blissful-lavender/blissful-lavender-1e423b.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/blissful-lavender/blissful-lavender3-9c3878.jpg"
+      ]
+    },
+    {
+      "title": "Calm",
+      "handle": "calm",
+      "body_html": "<p>Embrace the natural essence of Oat Milk and Honey. Calm offers a luxurious blend of skin loving nourishing ingredients, infused with beneficial essential oils. This all natural, nutrient-rich herbal bar is celebrated for its calming essential oils, deep cleansing qualities, and its invigorating scents. Treat your skin and senses to the delightful notes of ocean breeze without any harsh synthetic chemicals.</p><p><strong>Ingredients:</strong> Oat Milk, Honey, Jojoba Oil, Lavender Oil, Geranium Oil, Ylang Ylang Oil, Chamomile Oil, Tea Tree Oil and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Common Collection",
+        "herbal-soap"
+      ],
+      "sku": "CAL-HER-BAR-06",
+      "price": "16.99",
+      "weight": "6.3 OZ",
+      "collection": "The Common Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/calm/calm-e844e2.jpg"
+      ]
+    },
+    {
+      "title": "Charcoal Moment",
+      "handle": "charcoal-moment",
+      "body_html": "<p>Experience deep pore cleansing with our Charcoal Moment Herbal soap enriched with skin loving, moisturizing ingredients and beneficial essential oils. Our unique blend of Goat\u2019s Milk, Activated Charcoal Powder, and Bentonite Clay, offer the gentlest form of exfoliating, while drawing out impurities from your skin. It is particularly beneficial for treating oily, acne-prone skin, and helps clear blemishes. Activated Charcoal also helps in preventing future blackheads by reducing sebum buildup, while effectively absorbing dirt, sweat, and makeup.</p><p><strong>Ingredients:</strong> Coconut Oil, Activated Charcoal Powder, Goat Milk, Glycerin, Shea Butter, Bentonite Clay, Tea tree Oil, Peppermint Oil, Eucalyptus Oil, and Lavender Oil.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "CHA-HER-BAR-05",
+      "price": "14.99",
+      "weight": "7.3 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/charcoal-moment/charcoal-moment-copy-ca3096.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/charcoal-moment/charcoal-moment1-6c1049.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/charcoal-moment/charcoal-moment-ed1e69.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/charcoal-moment/charcoal-moment-2-12d880.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/charcoal-moment/charcoal-moment-1-99a91e.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/charcoal-moment/charcoal-moment-f60497.jpg"
+      ]
+    },
+    {
+      "title": "Citrus Heaven",
+      "handle": "citrus-heaven",
+      "body_html": "<p>MATCH YOURS EXACTLY Embrace the invigorating power of bright, zesty, and refreshing citrus. Citrus Heaven offers an exciting fusion of skin loving, moisturizing ingredients such as Goats Milk, Tangerine, and Sweet Orange, infused with beneficial essential oils. This delightful, fruity, all natural, nutrient- rich herbal bar is celebrated for its invigorating, vibrant, and crisp fragrance. Treat your skin to our luxurious blend of citrus notes which transports you to a sweet, tropical oasis with every use.</p><p><strong>Ingredients:</strong> Goats Milk, Lime Oil, Tangerine Oil, Sweet Orange Oil, Bergamot Oil, Lemongrass Oil, Grapefruit Oil, Lemon Oil, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Common Collection",
+        "herbal-soap"
+      ],
+      "sku": "CIT-HER-BAR-06",
+      "price": "15.99",
+      "weight": "7.3 OZ",
+      "collection": "The Common Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/citrus-heaven/citrus-heaven-copy-f9c676.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/citrus-heaven/citrus-heaven-06201f.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/citrus-heaven/citrus-heaven-1-8db3b4.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/citrus-heaven/citrus-heaven-2-99896b.jpg"
+      ]
+    },
+    {
+      "title": "Detoxify",
+      "handle": "detoxify",
+      "body_html": "<p>Experience the ultimate in skincare with our Detoxify herbal soap perfectly formulated with skin loving, moisturizing ingredients such as Goat\u2019s Milk and pure, high-quality Bentonite Clay, that acts as a natural sponge that binds to positively charged toxins, heavy metals, and bacteria. Our Detoxify herbal soap helps treat acne, soothe skin conditions such as clogged pores, eczema, psoriasis, and absorbs excess oil without dryness or irritation. The benefit of combining Goat\u2019s milk and Shea butter adds an extra layer of care and hydration to Detoxify, making it the perfect choice.</p><p><strong>Ingredients:</strong> Goats Milk, Shea Butter, Bentonite Clay, Frankincense Oil, Lemongrass Oil, Patchouli Oil, Grape Seed Oil, and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Common Collection",
+        "herbal-soap"
+      ],
+      "sku": "DET-HER-BAR-06",
+      "price": "17.99",
+      "weight": "6.3 OZ",
+      "collection": "The Common Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/detoxify/detoxify-copy-7dd82a.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/detoxify/detoxify-1ad3db.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/detoxify/detoxify-1-43852c.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/detoxify/detoxify-2-7cdc29.jpg"
+      ]
+    },
+    {
+      "title": "Fresh Floral Fiesta",
+      "handle": "fresh-floral-fiesta",
+      "body_html": "<p>Embrace natures light, airy, and blossoming scents with our Fresh Floral Fiesta Herbal soap. Renowned for its nourishing and renewing skin loving ingredients and anti-aging essential oils. This perfectly formulated soap with a moisturizing blend of pure Goat\u2019s milk and the sweet aroma of Japanese Magnolia, provides a gentle, yet effective cleanse for every skin type.</p><p><strong>Ingredients:</strong> Goats Milk, Palmarosa Oil, Rosewood Oil, Ylang Ylang, Geranium Oil, Rose Oil, Neroli Oil, Lavender Oil, Jasmine Oil, Coconut Oil, Chamomile Roman, Clary Sage Oil, Japanese Magnolia Oil and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Collection",
+        "herbal-soap"
+      ],
+      "sku": "FRE-HER-BAR-06",
+      "price": "21.99",
+      "weight": "7.3 OZ",
+      "collection": "The Royal Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/fresh-floral-fiesta/fresh-floral-fiesta-copy-c83821.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/fresh-floral-fiesta/fresh-floral-fiesta1-728b87.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/fresh-floral-fiesta/fresh-floral-fiesta-10dce3.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/fresh-floral-fiesta/fresh-floral-fiesta3-200366.jpg"
+      ]
+    },
+    {
+      "title": "Glow-rify",
+      "handle": "glow-rify",
+      "body_html": "<p>Elevate your glow with Glow-rify. This luxurious soap with skin loving, moisturizing ingredients and beneficial essential oils such as: Goats Milk and Carrot Seed Oil, also harbors one of Cleopatra\u2019s beauty secrets: known to deeply hydrate and balance skin complexion. Glow-rify not only amplifies your glow, it gently cleanses, and removes dead skin cells to reveal soft, radiant, and rejuvenated skin.</p><p><strong>Ingredients:</strong> Goats Milk, Raw Honey, Glycerin, Carrot Seed Oil, Frankincense Oil, Jasmine Oil, Cypress Oil, Lavender Oil, Geranium Oil, and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Collection",
+        "herbal-soap"
+      ],
+      "sku": "GLO-HER-BAR-06",
+      "price": "21.99",
+      "weight": "6.3 OZ",
+      "collection": "The Royal Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/glow-rify/glow-rify-1b0d38.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/glow-rify/glow-rify1-866dda.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/glow-rify/glow-rify-2-6dfb2d.jpg"
+      ]
+    },
+    {
+      "title": "Gilded Age",
+      "handle": "gilded-age",
+      "body_html": "<p>Step into a dynamic era with our Gilded Age herbal soap bar. This luxurious soap with skin loving, moisturizing ingredients and beneficial essential oils such as: Cocoa Butter, Honey, Violet, Lavender, Rose, and Ylang Ylang, is the perfect soap for the woman who wants to revisit the past. A woman who wants to capture a piece of magic. The ineffable aroma of beautiful roses, as fresh and lively today as the bouquets presented eons ago, can be witnessed in our tantalizingly familiar and yet agonizingly distant Gilded Age. Known for its rich, opulent and hydrating ingredients, Gilded Age balances your skin\u2019s surface while leaving behind a luxurious scent. Enjoy deep, warm, floral notes, reminiscent of vintage luxury, alongside blissful bubbly lathers that rejuvenate your skin.</p><p><strong>Ingredients:</strong> Cocoa Butter Base, Goats Milk Base, Patchouli Oil, Violet Oil, Lavender Oil, Rose Oil, Ylang Ylang Oil, Frankincense Oil, Glycerin Base, Cedarwood Oil, Sweet Orange Oil, Bergamot Oil, Cinnamon Oil, Jasmine Oil, Natural Coloring and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "GIL-HER-BAR-06",
+      "price": "21.99",
+      "weight": "6.3 OZ",
+      "collection": "The Royal Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/gilded-age/gilded-age-mini-a1d3f7.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/gilded-age/gilded-age-bb1f7f.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/gilded-age/gilded-age-ed6a71.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/gilded-age/gilded-age-mini-47018b.jpg"
+      ]
+    },
+    {
+      "title": "Herbal Galaxy Renewal Soap",
+      "handle": "herbal-galaxy-renewal-soap",
+      "body_html": "<p>Experience the invigorating power of nature with our Herbal Galaxy Renewal soap. This unique blend of skin loving, moisturizing ingredients, with beneficial essential oils such as: Shea Butter, Goats Milk and Vanilla provide the wholesome goodness your skin craves. Formulated with the ultimate care, and your skin in mind, our herbal fusion blend will lift your spirits, one blissful lather at a time. Be prepared to unveil soft, radiant, and hydrated skin.</p><p><strong>Ingredients:</strong> Shea Butter, Goats Milk, Honey, Coconut Oil, Vitamin E Oil, Turmeric Oil, Vanilla Oil, Clove Oil, Eucalyptus Oil, Rose Oil, Peppermint Oil, Spirulina Powder, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "HER-HER-BAR-06",
+      "price": "13.99",
+      "weight": "7.3 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/herbal-galaxy-renewal-soap/herbal-galaxy-renewal-soap-01.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/herbal-galaxy-renewal-soap/_pdf-page-16.jpg"
+      ]
+    },
+    {
+      "title": "Islander",
+      "handle": "islander",
+      "body_html": "<p>Embrace the tropical scents of the Islander. An Herbal soap formulated with mindful scents and a blend of skin loving, moisturizing ingredients such as: Coconut Milk and Bergamot. Scents of the islands, defined by notes of creamy coconut, sun-sweetened mango, and the ocean breeze, treat not only your skin, but also elevate your senses. As you lather, the lush, vacation- inspired aromas offer a luxurious vacation for your body, and evoke a warm, relaxing island getaway for your mind.</p><p><strong>Ingredients:</strong> Coconut Milk, Glycerin, Coconut Oil, Honey, Ylang Ylang Oil, Lime Oil, Lemon Oil, Orange Oil, Spearmint Oil, Bergamot, Oil, Mango Butter, Vanilla Oil, Pineapple Oil, Ginger Oil, Plumeria Oil, Tea Tree Oil, Vetiver Oil Pachouli Oil, Clary Sage Oil, Geranium Oil, Frankincense oil, Sandalwood Oil, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "ISL-HER-BAR-06",
+      "price": "21.99",
+      "weight": "7.3 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/islander/islander-1-b69ab1.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/islander/islander-4bd20a.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/islander/islander2-04da4b.jpg"
+      ]
+    },
+    {
+      "title": "Melanin Popping",
+      "handle": "melanin-popping",
+      "body_html": "<p>Experience the cleansing power of African black soap made from organic plantain skins and cocoa pod. This all natural, nutrient-rich herbal bar is celebrated for its deep cleansing, exfoliating, and antibacterial properties. It is enriched with skin loving ingredients that are packed with nourishing botanicals and moisturizers like shea butter, which balances, soothes, and revitalizes most skin types. Melanin Popping is perfect for Brown and Black skin, and is infused with essential oils that balance, moisturize, and cleanse the skin with wholesome goodness and zero harsh chemicals.</p><p><strong>Ingredients:</strong> African Black Soap, Goat Milk, Shea Butter, Coconut Oil, Jojoba Oil, Lavender Oil, Carrot Seed Oil, Geranium Oil, Tea Tree Oil, Frankincense Oil, Myrrh Oil, Turmeric Oil, and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "MEL-HER-BAR-05",
+      "price": "19.99",
+      "weight": "6.3 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/melanin-popping/melanin-popping-7212f9.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/melanin-popping/melanin-popping1-2364f9.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/melanin-popping/melanin-popping-2-85a17f.jpg"
+      ]
+    },
+    {
+      "title": "Sweet Madagascar",
+      "handle": "sweet-madagascar",
+      "body_html": "<p>Experience the ultimate in skincare with our Sweet Madagascar Herbal soap, enriched with skin loving, moisturizing ingredients and beneficial essential oils such as: Goat Milk, Coconut, and Vanilla oil. Our soap provides a gentle yet effective cleanse, while its scent transports you to the hand-pollinated orchids of Madagascar. Enjoy the sophisticated scents of blended notes of coconut, vanilla, and Ravintsara, which offer pure lathering bliss with zero chemicals.</p><p><strong>Ingredients:</strong> Goat Milk, Coconut Oil, Ravintsara (Cinnamomum Camphora) Oil, Geranium Oil, Vanilla Oil, Jasmine Oil, Saro Oil, Orange Blossom Oil, Ylang Ylang Oil, Clove Oil and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "SWE-HER-BAR-06",
+      "price": "21.99",
+      "weight": "6.3 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/sweet-madagascar/sweet-madagascar-5708e7.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/sweet-madagascar/sweet-madagascar-1-2f93b4.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/sweet-madagascar/sweet-madagascar1-3a2d99.jpg"
+      ]
+    },
+    {
+      "title": "The Duchess",
+      "handle": "the-duchess",
+      "body_html": "<p>Embody the sophisticated elegance of the Duchess, and channel real-life royalty with our regal herbal soap. This elegant soap with botanical blends of youth exuberance is ideal for the Royal Being. Soak in its crisp, warm, delicate notes which are undeniable to the senses and are sure to garner many compliments. Set as the first step routine in your cleansing ritual, layer it with your favorite fragrance for a long-lasting scent that lasts and lasts. The Duchess is formulated with rich nourishing ingredients such as Goat\u2019s Milk, Mango Butter, and infused with delicate florals such as Lily and Jasmine. Take your time, and take your skincare wellness to new heights with its bright, luminous and uplifting botanicals.</p><p><strong>Ingredients:</strong> Goats Milk, Mango Butter, Organic Lily of the Valley Oil, Jasmine Oil, Bergamot Oil, Sandalwood Oil, Vetiver Oil, Amber Oil, Grape Seed Oil, Vitamin E Oil, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 6.7 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "DUC-HER-BAR-6.7",
+      "price": "25.99",
+      "weight": "6.7 OZ",
+      "collection": "The Royal Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-duchess/the-duchess-mini-f7dba5.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-duchess/the-duchess-4707db.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-duchess/the-duchess-1-f46f40.jpg"
+      ]
+    },
+    {
+      "title": "The Enchanted Garden",
+      "handle": "the-enchanted-garden",
+      "body_html": "<p>Get swept up in the wonderful aromas of the Enchanted Garden. This is no ordinary herbal soap. Its luxurious lathers transport your senses into the mythical divine. With skin-loving all natural ingredients such as Coconut, infused with intoxicating essential oils such as Jasmine of the Arabias, the Enchanted Garden will take your breath away; leaving dewy, nourished, and revitalized skin. Beloved for its bright, fairy-like floral aromas, each earthy, floral, and grounding note is pure heaven to the senses. Take your self-care cleansing routine to a whole new realm, with this quintessential herbal bar. Enjoy soft, supple skin with the Enchanted Garden, created specifically with you in mind.</p><p><strong>Ingredients:</strong> Coconut Milk Base, Goats Milk, Rose Absolute Oil, Geranium Oil, Neroli Oil, Cedarwood Oil, Sandalwood Oil, Patchouli Oil, Vetiver Oil, Lavender Oil, Basil Oil, Amber Oil, Warm Oud Oil, Watermelon FO, Lime Oil, Bergamot Oil, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "ENC-HER-BAR-06",
+      "price": "21.99",
+      "weight": "6.3 OZ",
+      "collection": "The Royal Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-enchanted-garden/the-enchanted-garden-mni-a6fda0.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-enchanted-garden/the-enchanted-garden1-179a17.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-enchanted-garden/the-enchanted-garden-mini-5cb977.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-enchanted-garden/the-enchanted-garden-1-032323.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-enchanted-garden/the-enchanted-garden-f3d507.jpg"
+      ]
+    },
+    {
+      "title": "The Reiny",
+      "handle": "the-reiny",
+      "body_html": "<p>Captivate your audience with the lingering scents of The Reiny. This clarifying herbal soap ushers you into a Queendom world of royal spotlight. Be the Queen of your castle each day in your bath or shower, as you indulge in a magnificent cleansing ritual. The Reiny lives up to its name in its ingredients - formulated with skin-loving, moisturizing ingredients such Glycerin, Goat\u2019s Milk, Honey, and infused with essential oils such as Bergamot and Ylang Ylang. Allow luxurious lathers that offer captivating aromas to not only embrace your senses, but also to revive and nourish fatigued skin.</p><p><strong>Ingredients:</strong> Glycerin Base, Goat\u2019s Milk, Bergamot Oil, Ylang Ylang Oil, Jasmine Oil, Saffron Oil, Cedarwood Oil, Sandalwood Oil, Orange Oil, Honey, Vanilla Oil, Natural Coloring and Natural Preservative.</p><p><strong>Weight:</strong> 6.7 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "REI-HER-BAR-05",
+      "price": "21.99",
+      "weight": "6.7 OZ",
+      "collection": "The Royal Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-reiny/the-reiny-2-8fd1c5.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-reiny/the-reiny-mini-903257.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-reiny/the-reiny-1-32c63c.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-reiny/the-reiny-21ab83.jpg"
+      ]
+    },
+    {
+      "title": "The Rose Garden",
+      "handle": "the-rose-garden",
+      "body_html": "<p>Elevate your skincare with the enriching scents of The Rose Garden Herbal soap. Formulated with skin loving, moisturizing ingredients, tantalizing floral scents, and beneficial essential oils. Our unique blend of Goat\u2019s Milk, Honey, and Rose Hip oil is a delightful treat for your skin, and offers a luxurious floral fragrance that uplifts and brightens your mood.</p><p><strong>Ingredients:</strong> Goat Milk, Honey, Rose Hip Powder, Rose Hip Oil, Vanilla Oil, Rose Oil, Clove Oil, and Black Rose & Oud FO.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Collection",
+        "herbal-soap"
+      ],
+      "sku": "ROS-HER-BAR-06",
+      "price": "19.99",
+      "weight": "6.3 OZ",
+      "collection": "The Royal Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-rose-garden/the-rose-garden-01.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-rose-garden/_pdf-page-23.jpg"
+      ]
+    },
+    {
+      "title": "Turmeric Swirl",
+      "handle": "turmeric-swirl",
+      "body_html": "<p>Enjoy the brightening effects of Turmeric Swirl. This Herbal soap is formulated with skin loving, moisturizing ingredients, such Coconut Milk and Turmeric root powder to help even out skin tone, fade scars, brightens dark spots, soothes inflammatory conditions like acne and eczema, and promotes a natural, radiant glow. Utilize once a week for a radiant glow.</p><p><strong>Ingredients:</strong> Coconut Milk, Turmeric root powder, Turmeric Oil, Olive Oil, Shea Butter, Kaolin Clay, Orange Oil, Lavender Oil, and Tea Tree Oil.</p><p><strong>Weight:</strong> 6.7 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "TUR-HER-BAR-05",
+      "price": "11.99",
+      "weight": "6.7 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/turmeric-swirl/turmeric-swirl-copy-cf2403.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/turmeric-swirl/turmeric-swirl-0a937d.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/turmeric-swirl/turmeric-swirl2-7d9cc9.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/turmeric-swirl/turmeric-swirl1-a64cee.jpg"
+      ]
+    },
+    {
+      "title": "Watermelon Fusion",
+      "handle": "watermelon-fusion",
+      "body_html": "<p>Elevate your skincare cleansing routine with our Watermelon Fusion Herbal soap. This luxurious blend of nourishing ingredients such as Goat\u2019s Milk, Peppermint, and Watermelon, is a delightful treat for your skin. Formulated with skin loving ingredients, the wholesome goodness of poppy seeds for exfoliation, and enriched with beneficial essential oils, Watermelon Fusion leaves your skin feeling refreshed, smoother, softer, and radiant, time after time. Let the tantalizing scents of each lather, transport you to a tropical oasis with each use.</p><p><strong>Ingredients:</strong> Goat\u2019s Milk, Oat Milk Base, Coconut Oil, Watermelon Oil, Lavender Oil, Rose Oil, Eucalyptus Oil, Vanilla Oil, Peppermint Oil, Clove Oil, Pink Clay Powder, Poppy Seeds, Watermelon FO, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 6.7 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap"
+      ],
+      "sku": "WM-ORG-BR-04-ST",
+      "price": "19.99",
+      "weight": "6.7 OZ",
+      "collection": "The Signature Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/watermelon-fusion/watermelon-fusion-08955f.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/watermelon-fusion/watermelon-fusion3-4648ab.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/watermelon-fusion/watermelon-fusion1-22da95.jpg"
+      ]
+    },
+    {
+      "title": "Zen Moment",
+      "handle": "zen-moment",
+      "body_html": "<p>ABOUT TO UNDERGO TEST MODE Go zen with Zen Moment. This botanical Herbal soap ushers you into a tranquil, nature- inspired, spa-like oasis. Formulated with purifying and luxurious blends of nourishing ingredients, Zen gives you the moment of exhale we all seek after a long day. From the soothing touch of lavender to the refreshing pick-up of eucalyptus, Zen Moment turns your everyday routine into a mindful, wholesome ritual. Relax, breathe in, and exhale the wonderful scents of peppermint. A delightful treat for your skin and senses. Zen Moment is a must have in every cleansing routine. Embrace relaxation and mindfulness, as you uncover smoother, softer, radiant, and revitalized skin, time after time.</p><p><strong>Ingredients:</strong> Aloe Vera Base, Coconut Oil Base, Aloe Vera Oil, Lavender Oil, Frankincense Oil, Peppermint Oil, Eucalyptus Oil, Tea Tree Oil, Violet Oil, Natural Coloring and Natural Preservative.</p><p><strong>Weight:</strong> 6.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Signature Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "ZEN-HER-BAR-06",
+      "price": "19.99",
+      "weight": "6.3 OZ",
+      "collection": "The Signature Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/zen-moment/zen-moment-mini-f24fec.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/zen-moment/zen-moment-1-65d136.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/zen-moment/zen-moment-969d22.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/zen-moment/zen-moment1-bcc543.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/zen-moment/zen-moment-mini-246922.jpg"
+      ]
+    },
+    {
+      "title": "Bamboozled",
+      "handle": "bamboozled",
+      "body_html": "<p>Step into the wonderful, invigorating world of the Green Bamboo which offers a crisp experience, with the delicate notes of balsam and bamboo reeds. Bring smells of an enchanted forest right into your shower routine. Masculine, powerful, grounding, and unpretentious, our Bamboozled Herbal Soap bar exudes notes that are formulated with skin loving ingredients, and infused with beneficial essential oils. All ethically sourced with intention to offer the best in ultimate skin care. Prepare for a crisp, wild scent, and a refreshing clean.</p><p><strong>Ingredients:</strong> Goat\u2019s Milk, Bamboo FO, Organic Fir Balsam Oil, White Tea Oil, Cedar Wood Oil, Sandalwood Oil, Patchouli Oil, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Duke Collection",
+        "herbal-soap"
+      ],
+      "sku": "BAM-DUK-BAR-07",
+      "price": "19.99",
+      "weight": "7.3 OZ",
+      "collection": "The Royal Duke Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/bamboozled/_pdf-page-27.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/bamboozled/bamboozled-04.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/bamboozled/bamboozled-05.jpg"
+      ]
+    },
+    {
+      "title": "Woody",
+      "handle": "woody",
+      "body_html": "<p>Wind back time with Woody. The herbal soap with earthy roots. Woody is formulated with skin- loving ingredients such as Goat\u2019s Milk, and all natural essential oils such as Patchouli and Sandalwood to create the ultimate fusion of earthy scents, with a twist of Tobacco Oud. Each ingredient was carefully curated to add mystery, depth, and a remarkably lasting scent with each cleanse. Woody is perfect for the vintage gentleman who loves aromas with a remarkable staying power. Let Woody transport your senses back to the 60\u2019s with its outstanding musk, its nourishing ingredients and its hydrating essence. Experience rich, warm, intense cleanse, one bar at a time.</p><p><strong>Ingredients:</strong> Goat\u2019s Milk, Cedar wood Oil, Sandalwood Oil, Tobacco Oil, Patchouli Oil, Sweet Orange Oil, Bergamot Oil, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Duke Collection",
+        "herbal-soap"
+      ],
+      "sku": "WOO-DUK-BAR-07",
+      "price": "20.99",
+      "weight": "7.3 OZ",
+      "collection": "The Royal Duke Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/woody/_pdf-page-28.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/woody/woody-01.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/woody/woody-02.jpg"
+      ]
+    },
+    {
+      "title": "The Ethan",
+      "handle": "the-ethan",
+      "body_html": "<p>Experience The Ethan, our remarkable Herbal Soap Bar for the enduring man. Carefully crafted with notes that are grounded, strong, and bold. Every ingredient was specifically formulated to deliver an enduring, earthy, fresh experience, with remarkable staying power. Loaded with skin- loving ingredients that are infused with mindful all-natural essential oils. Warm notes like sage, balanced with spicy hints of black pepper, the Ethan evokes an unforgettable shower experience. Experience a rich, warm, and intense cleanse with elevated hydration and well nourished skin.</p><p><strong>Ingredients:</strong> Goat\u2019s Milk, Vanilla Oil, Cedarwood Oil, Sandalwood Oil, Amber Oil, Vetiver Oil, Bergamot Oil, Black Pepper, Fresh Linen FO, Sage Oil, White Tea FO, Eucalyptus Oil, Warm Oud FO, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Duke Collection",
+        "herbal-soap"
+      ],
+      "sku": "ETH-DUK-BAR-07",
+      "price": "21.99",
+      "weight": "7.3 OZ",
+      "collection": "The Royal Duke Collection",
+      "status": "ACTIVE",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-ethan/the-ethan-03.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-ethan/the-ethan-02.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-ethan/_pdf-page-29.jpg"
+      ]
+    },
+    {
+      "title": "The Aristocrat",
+      "handle": "the-aristocrat",
+      "body_html": "<p>Wander into the spellbinding world of the Aristocrat, the noble herbal soap for the refined and ambitious man. Each skin loving ingredient was ethically sourced, carefully chosen, and perfectly curated to complement the skin. Discover its luxurious lathers; its crisp, fresh, and wonderful blend of essential oils that deliver notes of cedar, amber, and bergamot. This divine formulation refreshes the skin, and then transitions into the most inviting scents. The Aristocrat offers an undeniable, irresistible cleansing ritual that lasts and lasts with each wash.</p><p><strong>Ingredients:</strong> Goat\u2019s Milk, Cedarwood, Patchouli Oil, Amber Oil, Warm Oud Oil, Watermelon FO, Lime Oil, Bergamot Oil, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Duke Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "ARI-DUK-BAR-07",
+      "price": "20.99",
+      "weight": "7.3 OZ",
+      "collection": "The Royal Duke Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-aristocrat/the-aristocrat-mini-cef668.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-aristocrat/the-aristocrat-a94f45.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-aristocrat/the-aristocrat-copy-651e65.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-aristocrat/the-aristocrat-large-and-mini-d27cd6.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-aristocrat/the-aristocrat-1-613206.jpg"
+      ]
+    },
+    {
+      "title": "Teakwood",
+      "handle": "teakwood",
+      "body_html": "<p>ABOUT TO UNDERGO TEST MODE Experience Teakwood, the herbal, botanical soap for the rich, rugged, or sophisticated man. Crafted with ambitious notes that are warm, woody, and remarkably provocative. Each skin loving ingredient in Teakwood was ethically sourced, and carefully curated to complement the skin. Discover its refined aroma, its rich and luxurious lather, and the wonderful blends of essential oils that deliver smoky notes of tobacco and outdoorsy vibes. Teakwood\u2019s herbal bar is formulated with Goat\u2019s Milk for deep hydration, and infused with indulgent all-natural essential oils such as Warm Oud, Patchouli and Teakwood, to revive the senses. Its wonderful notes transition into the most exotic and inviting scents.</p><p><strong>Ingredients:</strong> Goat\u2019s Milk, Teakwood Oil, Tobacco Oud, Patchouli Oil, Lavender Oil, Black Pepper Oil, Warm Oud Oil, Clove Oil, Cardamom Oil, Bergamot Oil, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 7.3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Duke Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "TEA-DUK-BAR-07",
+      "price": "21.99",
+      "weight": "7.3 OZ",
+      "collection": "The Royal Duke Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/teakwood/_pdf-page-31.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/teakwood/teakwood-03.jpg"
+      ]
+    },
+    {
+      "title": "The Chloe",
+      "handle": "the-chloe",
+      "body_html": "<p>ABOUT TO UNDERGO TEST MODE Say hello to full bloom with Chloe, our herbal bar soap formulated with skin-loving ingredients and infused with delicate essential oils. Chloe is ideal for every child with delicate skin. This herbal soap bar is reminiscent of spring and has gentle notes such as lavender and spearmint to revive any Royal Being. Experience soft, gentle lathers that caress and nourish the skin, leaving it supple, smooth, and restored. with each use.</p><p><strong>Ingredients:</strong> Coconut Milk, Mango Base, Lavender Oil, Organic Roman Chamomile Oil, Sweet Orange Oil, Cherry Blossom Oil, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 5.29 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Kid Herbal Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "CHL-KID-BAR-05",
+      "price": "12.99",
+      "weight": "5.29 OZ",
+      "collection": "The Royal Kid Herbal Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-chloe/the-chloe-01.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-chloe/the-chloe-03.jpg"
+      ]
+    },
+    {
+      "title": "The Bodhi",
+      "handle": "the-bodhi",
+      "body_html": "<p>Experience a renewal with Bodhi, our kid friendly herbal soap bar for sensitive skin. Formulated with gentle ingredients that soothe, calm, and target sensitivity, Bodhi is renowned for calming redness and relieving itchy skin. It is infused with Sweet Orange to lift up the spirits of your little one, and perfect for bedtime baths. Bodhi herbal bar is the perfect cleansing companion for your little one. Enjoy, gentle, lofty lathers that caress and nourish the skin, one shower at a time.</p><p><strong>Ingredients:</strong> Oatmeal Base, Honey Base, Aloe Vera Base, Shea Butter Base, Lavender Oil, Organic Roman Chamomile Oil, Sweet Orange Oil, Oatmeal, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Kid Herbal Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "BOD-KID-BAR-03",
+      "price": "9.99",
+      "weight": "3 OZ",
+      "collection": "The Royal Kid Herbal Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-bodhi/the-bodhi-01.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-bodhi/the-bodhi-02.jpg"
+      ]
+    },
+    {
+      "title": "The Matthew",
+      "handle": "the-matthew",
+      "body_html": "<p>Experience the ultimate soap in our Royal Kid Herbal Collection: The Matthew. Tried and approved by kids, who love and sing its praises at bath time. The Matthew is formulated with skin-loving ingredients and infused with mindful essential oils that target skin conditions. With ingredients such as Shea Butter that nourish the skin, and calendula oil that manages inflammations, while targeting skin conditions such as eczema, it\u2019s no wonder the Matthew is our most demanded soap. Use The Matthew nightly to help lock in moisture without clogging delicate pores.</p><p><strong>Ingredients:</strong> Oatmeal Base, Aloe Vera Base, Shea Butter Base, Coconut Oil, Aloe Vera Oil, Aloe Vera Gel, Castor Oil, Organic Roman Chamomile Oil, Sweet Orange Oil, Melon Oil, Organic Cucumber Oil, Oatmeal, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 3 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Kid Herbal Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "MAT-KID-BAR-03",
+      "price": "9.99",
+      "weight": "3 OZ",
+      "collection": "The Royal Kid Herbal Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-matthew/the-matthew-01.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-matthew/the-matthew-02.jpg"
+      ]
+    },
+    {
+      "title": "The Iris",
+      "handle": "the-iris",
+      "body_html": "<p>Introducing Iris, the Royal bar that\u2019s true to its name. This herbal bar was formulated with delicate skin-loving ingredients that not only rejuvenate skin, but also uplifts your kids\u2019 mood. With notes of soothing lavender and the uplifting effect of sweet smelling orange, bath time is sure to be a fun, and invigorating time for every child.</p><p><strong>Ingredients:</strong> Goat\u2019s Milk Base, Aloe Vera Base, Lavender Oil, Organic Roman Chamomile Oil, Sweet Orange Oil, Natural Coloring, and Natural Preservative.</p><p><strong>Weight:</strong> 5.29 OZ</p>",
+      "vendor": "Royal Being",
+      "product_type": "Herbal Soap",
+      "tags": [
+        "The Royal Kid Herbal Collection",
+        "herbal-soap",
+        "coming-soon"
+      ],
+      "sku": "IRI-KID-BAR-05",
+      "price": "12.99",
+      "weight": "5.29 OZ",
+      "collection": "The Royal Kid Herbal Collection",
+      "status": "DRAFT",
+      "images": [
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-iris/the-iris-02.jpg",
+        "/Users/bstar/F/Projects/Royal Being soap website/import-assets/real-photos/the-iris/the-iris-01.jpg"
+      ]
+    }
+  ]
+}
